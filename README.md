@@ -1,10 +1,13 @@
 <p align="center"><img src="docs/shrek-2.jpg" alt="Shrek 2" width="720"></p>
 
-<h1 align="center">Shrek 2 PC — Unified Patch</h1>
+<h1 align="center">Shrek 2 (2004) PC — Unified Patch</h1>
 
 <p align="center">
 <b>English</b> · <a href="README.ru.md">Русский</a> · <a href="https://kam0n4ik.github.io/Shrek-2-PC-Unified-Patch/">Website</a> · <a href="https://github.com/kam0n4ik/Shrek-2-PC-Unified-Patch/releases/latest">Download</a>
 </p>
+
+> [!IMPORTANT]
+> This patch is for the **original 2004 PC game** (KnowWonder / Activision, Unreal Engine 2). It is **not for the 2026 remaster** and won't work with it.
 
 An unofficial patch for the 2004 PC game **Shrek 2** (KnowWonder / Activision, Unreal Engine 2): widescreen, modern resolutions, windowed mode, VSync, crash fixes, intro skip and an optional unlock of the developers' debug menu. It comes as a single installer that verifies every file and can roll back to the originals.
 

@@ -1,10 +1,13 @@
 <p align="center"><img src="docs/shrek-2.jpg" alt="Shrek 2" width="720"></p>
 
-<h1 align="center">Shrek 2 PC — единый патч</h1>
+<h1 align="center">Shrek 2 (2004) PC — единый патч</h1>
 
 <p align="center">
 <a href="README.md">English</a> · <b>Русский</b> · <a href="https://kam0n4ik.github.io/Shrek-2-PC-Unified-Patch/ru/">Сайт</a> · <a href="https://github.com/kam0n4ik/Shrek-2-PC-Unified-Patch/releases/latest">Скачать</a>
 </p>
+
+> [!IMPORTANT]
+> Патч для **оригинальной PC-игры 2004 года** (KnowWonder / Activision, Unreal Engine 2). **Не для ремастера 2026 года**, с ним он работать не будет.
 
 Неофициальный патч для PC-версии **Шрек 2** 2004 года (KnowWonder / Activision, Unreal Engine 2). Он добавляет широкий экран, современные разрешения, оконный режим и VSync, исправляет вылеты, пропускает заставки и по желанию открывает меню разработчиков. Всё ставится одним установщиком. Он проверяет каждый файл и умеет вернуть оригиналы.
 
