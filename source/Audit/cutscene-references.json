@@ -1,0 +1,1285 @@
+{
+  "cuts": 180,
+  "boundary": "Case-insensitive ASCII/UTF16 literal substrings in all 29 maps, all shipped System/*.u (original SHGame), other Cutscenes/*.int. No miss is a dynamic/native reachability proof; positive substring hits can be noncalls. CUT_ prefix is accepted, as CutFactory strips it.",
+  "rows": [
+    {
+      "file": "BeanStalkBonus_Intro.int",
+      "size": 1194,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus.unr",
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus_dawn.unr",
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus_knight.unr"
+      ]
+    },
+    {
+      "file": "Book_Story_1.int",
+      "size": 6622,
+      "literal_matches": [
+        "<work>\\work\\original\\System\\SHGame.u"
+      ]
+    },
+    {
+      "file": "Book_Story_2.int",
+      "size": 5276,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\2_Carriage_Hijack.unr"
+      ]
+    },
+    {
+      "file": "Book_Story_3.int",
+      "size": 3786,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_End.unr"
+      ]
+    },
+    {
+      "file": "Book_Story_4.int",
+      "size": 2743,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr"
+      ]
+    },
+    {
+      "file": "BoxPunch.int",
+      "size": 79,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Carriage_AfterLogs.int",
+      "size": 1185,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\2_Carriage_Hijack.unr"
+      ]
+    },
+    {
+      "file": "Carriage_EstablishWheel.int",
+      "size": 891,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\2_Carriage_Hijack.unr"
+      ]
+    },
+    {
+      "file": "Carriage_ShowWheelLoc.int",
+      "size": 608,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\2_Carriage_Hijack.unr"
+      ]
+    },
+    {
+      "file": "CarriageAfterHeroBars.int",
+      "size": 2050,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\2_Carriage_Hijack.unr"
+      ]
+    },
+    {
+      "file": "CarriageGotWheelBack.int",
+      "size": 2774,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\2_Carriage_Hijack.unr"
+      ]
+    },
+    {
+      "file": "CarriageInterior.int",
+      "size": 463,
+      "literal_matches": []
+    },
+    {
+      "file": "CarriageIntro.int",
+      "size": 9180,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\2_Carriage_Hijack.unr"
+      ]
+    },
+    {
+      "file": "CaslteS_KnightDoors.int",
+      "size": 0,
+      "literal_matches": []
+    },
+    {
+      "file": "CastleS_Cowapults.int",
+      "size": 399,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_FountainPickUp.int",
+      "size": 1963,
+      "literal_matches": []
+    },
+    {
+      "file": "CastleS_HintPullFountain.int",
+      "size": 399,
+      "literal_matches": []
+    },
+    {
+      "file": "CastleS_Intro.int",
+      "size": 3305,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_KnightDoors.int",
+      "size": 882,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_KnockWalls.int",
+      "size": 453,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_Tents.int",
+      "size": 399,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_Trees.int",
+      "size": 494,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_TrolleyCar.int",
+      "size": 1002,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_WatchOutMilk.int",
+      "size": 398,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "CastleS_Win.int",
+      "size": 3078,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "Credits.int",
+      "size": 849,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\Book_Story_4.unr",
+        "E:\\Shrek 2\\System\\GamePlay.u",
+        "<work>\\work\\original\\System\\SHGame.u"
+      ]
+    },
+    {
+      "file": "Cut_CastleS_WatchOutMilk.int",
+      "size": 0,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\10_Castle_Siege.unr"
+      ]
+    },
+    {
+      "file": "DefeatedPIB.int",
+      "size": 10565,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr",
+        "E:\\Shrek 2\\System\\Cutscenes\\DefeatedPIBTest.int"
+      ]
+    },
+    {
+      "file": "DefeatedPIBTest.int",
+      "size": 1348,
+      "literal_matches": []
+    },
+    {
+      "file": "DNKteleportToBridge.int",
+      "size": 168,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "DonkeyHelpLine.int",
+      "size": 141,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "DonkeyStrengthPotion.int",
+      "size": 568,
+      "literal_matches": [
+        "<work>\\work\\original\\System\\SHGame.u"
+      ]
+    },
+    {
+      "file": "DSP.int",
+      "size": 568,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_Mine.unr",
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr",
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr",
+        "E:\\Shrek 2\\System\\AmbientCreatures.u",
+        "E:\\Shrek 2\\System\\Engine.u",
+        "E:\\Shrek 2\\System\\GamePlay.u",
+        "E:\\Shrek 2\\System\\GUI.u",
+        "E:\\Shrek 2\\System\\KWGame.u",
+        "<work>\\work\\original\\System\\SHGame.u"
+      ]
+    },
+    {
+      "file": "FGM_Battle_doorLatchLeft.int",
+      "size": 950,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr"
+      ]
+    },
+    {
+      "file": "FGM_Battle_doorLatchRight.int",
+      "size": 954,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr"
+      ]
+    },
+    {
+      "file": "FGM_Battle_Winner.int",
+      "size": 419,
+      "literal_matches": []
+    },
+    {
+      "file": "FGM_Donkey_DeadlyGas.int",
+      "size": 1037,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\5_FGM_Donkey.unr"
+      ]
+    },
+    {
+      "file": "FGM_Donkey_DonkeyDoorKick.int",
+      "size": 410,
+      "literal_matches": []
+    },
+    {
+      "file": "FGM_Donkey_DoorUp01.int",
+      "size": 417,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\5_FGM_Donkey.unr"
+      ]
+    },
+    {
+      "file": "FGM_Donkey_DoorUp02.int",
+      "size": 417,
+      "literal_matches": []
+    },
+    {
+      "file": "FGM_Donkey_EscapeHint1.int",
+      "size": 463,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\5_FGM_Donkey.unr"
+      ]
+    },
+    {
+      "file": "FGM_DonkeyEscape.int",
+      "size": 4029,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr",
+        "E:\\Shrek 2\\Maps\\5_FGM_Donkey.unr"
+      ]
+    },
+    {
+      "file": "FGM_Intro.int",
+      "size": 6092,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr",
+        "E:\\Shrek 2\\Maps\\5_FGM_Donkey.unr"
+      ]
+    },
+    {
+      "file": "FGM_Office.int",
+      "size": 10311,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr",
+        "E:\\Shrek 2\\Maps\\4_FGM_Office.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_NoCapFireVents.int",
+      "size": 167,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_NoCapLasers.int",
+      "size": 158,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_NoCapLasers2.int",
+      "size": 160,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_NoCapPipes.int",
+      "size": 158,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut1.int",
+      "size": 601,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut10.int",
+      "size": 606,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut2.int",
+      "size": 590,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut3.int",
+      "size": 590,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut4.int",
+      "size": 1133,
+      "literal_matches": []
+    },
+    {
+      "file": "FGM_PIB_QuickCut5.int",
+      "size": 587,
+      "literal_matches": []
+    },
+    {
+      "file": "FGM_PIB_QuickCut6.int",
+      "size": 619,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut7.int",
+      "size": 551,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut8.int",
+      "size": 593,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_QuickCut9.int",
+      "size": 593,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FGM_PIB_VentIntro.int",
+      "size": 589,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\4_FGM_PIB.unr"
+      ]
+    },
+    {
+      "file": "FinalBattle_FGMPreBattle.int",
+      "size": 6195,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr"
+      ]
+    },
+    {
+      "file": "FinalBattle_Intro.int",
+      "size": 1893,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr"
+      ]
+    },
+    {
+      "file": "FinalBattle_YouWin.int",
+      "size": 10775,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr"
+      ]
+    },
+    {
+      "file": "GameMenu.int",
+      "size": 1222,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\Book_FrontEnd.unr",
+        "E:\\Shrek 2\\System\\Engine.u",
+        "E:\\Shrek 2\\System\\GUI.u",
+        "E:\\Shrek 2\\System\\KWGame.u",
+        "<work>\\work\\original\\System\\SHGame.u"
+      ]
+    },
+    {
+      "file": "Hamlet_Below1.int",
+      "size": 588,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_End.unr"
+      ]
+    },
+    {
+      "file": "Hamlet_Below2.int",
+      "size": 587,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_End.unr"
+      ]
+    },
+    {
+      "file": "Hamlet_Below3.int",
+      "size": 781,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_End.unr"
+      ]
+    },
+    {
+      "file": "Hamlet_LevelGate01.int",
+      "size": 413,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet.unr"
+      ]
+    },
+    {
+      "file": "Hamlet_QuickCut1.int",
+      "size": 557,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet.unr"
+      ]
+    },
+    {
+      "file": "Hamlet_QuickCut2.int",
+      "size": 519,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet.unr"
+      ]
+    },
+    {
+      "file": "Hamlet_QuickCut3.int",
+      "size": 564,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet.unr"
+      ]
+    },
+    {
+      "file": "HamletBigBridge.int",
+      "size": 641,
+      "literal_matches": []
+    },
+    {
+      "file": "HamletChimneyShot.int",
+      "size": 698,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_End.unr"
+      ]
+    },
+    {
+      "file": "HamletEndFarmHouse.int",
+      "size": 4148,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_End.unr"
+      ]
+    },
+    {
+      "file": "HamletIntro.int",
+      "size": 12031,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet.unr"
+      ]
+    },
+    {
+      "file": "HamletVillageA.int",
+      "size": 563,
+      "literal_matches": []
+    },
+    {
+      "file": "HamletVillageB.int",
+      "size": 28,
+      "literal_matches": []
+    },
+    {
+      "file": "HamMine_QuickCut1.int",
+      "size": 628,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_Mine.unr"
+      ]
+    },
+    {
+      "file": "HamMine_QuickCut2.int",
+      "size": 624,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_Mine.unr"
+      ]
+    },
+    {
+      "file": "HamMine_QuickCut3.int",
+      "size": 758,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\6_Hamlet_Mine.unr"
+      ]
+    },
+    {
+      "file": "Hunt_BearTrapIntro.int",
+      "size": 975,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "Hunt_DonkeyDontLeaveMe.int",
+      "size": 1323,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "Hunt_DonkeyToss.int",
+      "size": 1190,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "Hunt_ExplosiveMush.int",
+      "size": 159,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr"
+      ]
+    },
+    {
+      "file": "Hunt_FoodSigns1.int",
+      "size": 1108,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part3.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "Hunt_GiantPumpkin.int",
+      "size": 1019,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "Hunt_HayBail_Intro.int",
+      "size": 704,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part2.unr"
+      ]
+    },
+    {
+      "file": "Hunt_JumpAttackButton.int",
+      "size": 699,
+      "literal_matches": []
+    },
+    {
+      "file": "Hunt_MushroomDonkeyTeleport.int",
+      "size": 301,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "Hunt_MushRoomRejection.int",
+      "size": 995,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part3.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "Hunt_MushSpong.int",
+      "size": 80,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr"
+      ]
+    },
+    {
+      "file": "Hunt_Peasant_Intro.int",
+      "size": 3600,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part2.unr"
+      ]
+    },
+    {
+      "file": "Hunt_Peasant_Intro2.int",
+      "size": 1538,
+      "literal_matches": []
+    },
+    {
+      "file": "Hunt_Pumpkins.int",
+      "size": 738,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr"
+      ]
+    },
+    {
+      "file": "Hunt_RemoveFakeBackDrop.int",
+      "size": 665,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part2.unr"
+      ]
+    },
+    {
+      "file": "Hunt_RockThrow.int",
+      "size": 573,
+      "literal_matches": []
+    },
+    {
+      "file": "Hunt_ShowOldTreeFall.int",
+      "size": 728,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part2.unr"
+      ]
+    },
+    {
+      "file": "Hunt_ShowTreeGate.int",
+      "size": 680,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part3.unr"
+      ]
+    },
+    {
+      "file": "Hunt_ShowTreeGate2.int",
+      "size": 733,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part3.unr"
+      ]
+    },
+    {
+      "file": "Hunt_ShrekGone.int",
+      "size": 1491,
+      "literal_matches": []
+    },
+    {
+      "file": "Hunt_SwitchIntro.int",
+      "size": 561,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr"
+      ]
+    },
+    {
+      "file": "Hunt_TeachJumpAttack.int",
+      "size": 433,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part2.unr"
+      ]
+    },
+    {
+      "file": "Hunt_TreeIntro.int",
+      "size": 261,
+      "literal_matches": []
+    },
+    {
+      "file": "HuntDonkeyTrap.int",
+      "size": 4985,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "LabWindow.int",
+      "size": 1255,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\5_FGM_Donkey.unr"
+      ]
+    },
+    {
+      "file": "NEWSwampIntro.int",
+      "size": 13918,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "PIBAmbushIntro.int",
+      "size": 6367,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part2.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part3.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "PIBprison_PIBcShrek.int",
+      "size": 1413,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PIBprison_teleportShrek01.int",
+      "size": 244,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PreBattleKnightPatrol.int",
+      "size": 0,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_DNKcShrek.int",
+      "size": 861,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_Escape.int",
+      "size": 6290,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr",
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_FatKnightIntro.int",
+      "size": 1447,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_FatNightEndLevel.int",
+      "size": 939,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_Intro.int",
+      "size": 2156,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_PreBattleKnightPatrol.int",
+      "size": 150,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_QuickCut1.int",
+      "size": 609,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_QuickCut2.int",
+      "size": 578,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_QuickCut3.int",
+      "size": 580,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_QuickCut4.int",
+      "size": 580,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_QuickCut5.int",
+      "size": 580,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_QuickCut6.int",
+      "size": 695,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisDonkey_teleportShrek01.int",
+      "size": 245,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr"
+      ]
+    },
+    {
+      "file": "PrisPIB_EscapePart2.int",
+      "size": 3124,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PrisPIB_FatKnightEndLevel.int",
+      "size": 921,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PrisPIB_FatKnightIntro.int",
+      "size": 1326,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PrisPIB_WaterRise.int",
+      "size": 641,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PrisPIB_WaterSink.int",
+      "size": 577,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr"
+      ]
+    },
+    {
+      "file": "PrisShrek_BrknSwtch0.int",
+      "size": 661,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "PrisShrek_BrknSwtch1.int",
+      "size": 799,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "PrisShrek_EscapePart3.int",
+      "size": 4214,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "PrisShrek_FatKnightIntro.int",
+      "size": 1169,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "PrisShrek_MongoIntro.int",
+      "size": 7394,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "RescueDonkey.int",
+      "size": 2662,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part3.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr"
+      ]
+    },
+    {
+      "file": "ShimmyDownArrow.int",
+      "size": 81,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Shrek2Test1.int",
+      "size": 913,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus_dawn.unr",
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus_knight.unr"
+      ]
+    },
+    {
+      "file": "ShrekHumanSwitch0.int",
+      "size": 492,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr",
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "ShrekHumanSwitch1.int",
+      "size": 492,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr",
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "ShrekHumanSwitch2.int",
+      "size": 492,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\11_FGM_Battle.unr",
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "ShrekHumanSwitch3.int",
+      "size": 580,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "ShrekSeesDonkey01.int",
+      "size": 168,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "ShrekSeesDonkey02.int",
+      "size": 1488,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "Swamp_1stBouncePad.int",
+      "size": 145,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_Boards.int",
+      "size": 79,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_Briar1.int",
+      "size": 79,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_Briar2.int",
+      "size": 79,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_Clover1.int",
+      "size": 443,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_Clover2.int",
+      "size": 539,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_Lever.int",
+      "size": 165,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_NewPunch.int",
+      "size": 297,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_NewPunchLookAt.int",
+      "size": 120,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_Save2.int",
+      "size": 743,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "Swamp_TransDonkey01.int",
+      "size": 145,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampBouncy.int",
+      "size": 81,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampBoxPunch.int",
+      "size": 79,
+      "literal_matches": []
+    },
+    {
+      "file": "SwampBriar.int",
+      "size": 98,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_Briar1.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_Briar2.int"
+      ]
+    },
+    {
+      "file": "SwampClimb.int",
+      "size": 146,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampCoins.int",
+      "size": 642,
+      "literal_matches": []
+    },
+    {
+      "file": "SwampDelapBridge.int",
+      "size": 927,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampHealth.int",
+      "size": 247,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampIntro.int",
+      "size": 4575,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr",
+        "E:\\Shrek 2\\System\\Cutscenes\\NEWSwampIntro.int"
+      ]
+    },
+    {
+      "file": "SwampJShimmy.int",
+      "size": 446,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr",
+        "<work>\\work\\original\\System\\SHGame.u",
+        "E:\\Shrek 2\\System\\Cutscenes\\ShimmyDownArrow.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\SwampJShimmy2.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\SwampShimmy.int"
+      ]
+    },
+    {
+      "file": "SwampJShimmy2.int",
+      "size": 209,
+      "literal_matches": []
+    },
+    {
+      "file": "SwampJump.int",
+      "size": 613,
+      "literal_matches": []
+    },
+    {
+      "file": "SwampMove.int",
+      "size": 79,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_1stBouncePad.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_Boards.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_Clover1.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_Clover2.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_Lever.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\SwampClimb.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\SwampDelapBridge.int"
+      ]
+    },
+    {
+      "file": "SwampPoster.int",
+      "size": 1594,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr",
+        "E:\\Shrek 2\\System\\Cutscenes\\SwampCoins.int"
+      ]
+    },
+    {
+      "file": "SwampPotionCommercial.int",
+      "size": 968,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampPotionCommercialEnd.int",
+      "size": 126,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampPunch.int",
+      "size": 754,
+      "literal_matches": [
+        "E:\\Shrek 2\\System\\Cutscenes\\BoxPunch.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Swamp_NewPunch.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\SwampBoxPunch.int"
+      ]
+    },
+    {
+      "file": "SwampShimmy.int",
+      "size": 623,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampTransToCar.int",
+      "size": 6475,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    },
+    {
+      "file": "SwampTransToCarTEST.int",
+      "size": 5832,
+      "literal_matches": []
+    },
+    {
+      "file": "SwampWitchCaul.int",
+      "size": 571,
+      "literal_matches": []
+    },
+    {
+      "file": "SwapPlayers.int",
+      "size": 0,
+      "literal_matches": []
+    },
+    {
+      "file": "TeleportPIB.int",
+      "size": 1731,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr"
+      ]
+    },
+    {
+      "file": "Temp.int",
+      "size": 149,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part2.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part3.unr",
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part4.unr",
+        "E:\\Shrek 2\\Maps\\6_Hamlet_End.unr",
+        "E:\\Shrek 2\\Maps\\7_Prison_Donkey.unr",
+        "E:\\Shrek 2\\Maps\\8_Prison_PIB.unr",
+        "E:\\Shrek 2\\Maps\\9_Prison_Shrek.unr",
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus.unr",
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus_dawn.unr",
+        "E:\\Shrek 2\\Maps\\Beanstalk_bonus_knight.unr",
+        "E:\\Shrek 2\\System\\Core.u",
+        "E:\\Shrek 2\\System\\Editor.u",
+        "E:\\Shrek 2\\System\\Engine.u",
+        "E:\\Shrek 2\\System\\GUI.u",
+        "E:\\Shrek 2\\System\\KWGame.u",
+        "<work>\\work\\original\\System\\SHGame.u",
+        "E:\\Shrek 2\\System\\UDebugMenu.u",
+        "E:\\Shrek 2\\System\\UWindow.u",
+        "E:\\Shrek 2\\System\\Cutscenes\\Book_Story_1.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Book_Story_2.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\Book_Story_4.int",
+        "E:\\Shrek 2\\System\\Cutscenes\\GameMenu.int"
+      ]
+    },
+    {
+      "file": "TestCutScene.int",
+      "size": 3413,
+      "literal_matches": []
+    },
+    {
+      "file": "TestCutScene2.int",
+      "size": 0,
+      "literal_matches": []
+    },
+    {
+      "file": "TestCutScene3.int",
+      "size": 0,
+      "literal_matches": []
+    },
+    {
+      "file": "TheHuntIntro.int",
+      "size": 7364,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\3_The_Hunt_Part1.unr"
+      ]
+    },
+    {
+      "file": "TransDonkey01.int",
+      "size": 0,
+      "literal_matches": [
+        "E:\\Shrek 2\\Maps\\1_Shreks_Swamp.unr"
+      ]
+    }
+  ]
+}

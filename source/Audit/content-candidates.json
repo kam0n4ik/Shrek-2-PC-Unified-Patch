@@ -1,0 +1,92 @@
+[
+  {
+    "class": "PeasantProjectileWimp",
+    "code_references_outside_own_class": [],
+    "package_index": 3065,
+    "offset": 377727,
+    "size": 292,
+    "super": "PeasantWimp",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "PeasantLungerWimp",
+    "code_references_outside_own_class": [],
+    "package_index": 7981,
+    "offset": 780613,
+    "size": 333,
+    "super": "PeasantWimp",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "PeasantUpEnderWimp",
+    "code_references_outside_own_class": [],
+    "package_index": 7979,
+    "offset": 780060,
+    "size": 442,
+    "super": "PeasantWimp",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "PeasantUpEnderCoward",
+    "code_references_outside_own_class": [],
+    "package_index": 7983,
+    "offset": 781056,
+    "size": 254,
+    "super": "PeasantCoward",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "PeasantMobPreCombatController",
+    "code_references_outside_own_class": [],
+    "package_index": 8189,
+    "offset": 846782,
+    "size": 945,
+    "super": "ShEnemyController",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "RegressionPlane",
+    "code_references_outside_own_class": [],
+    "package_index": 7359,
+    "offset": 673423,
+    "size": 122,
+    "super": "ShProps",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "ArtTestMesh",
+    "code_references_outside_own_class": [],
+    "package_index": 7792,
+    "offset": 740311,
+    "size": 116,
+    "super": "ShProps",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "ArtTestStaticMesh",
+    "code_references_outside_own_class": [],
+    "package_index": 7222,
+    "offset": 653781,
+    "size": 113,
+    "super": "ShProps",
+    "map_instances": [],
+    "map_class_imports": []
+  },
+  {
+    "class": "BoneTestActor",
+    "code_references_outside_own_class": [],
+    "package_index": 8174,
+    "offset": 837745,
+    "size": 215,
+    "super": "Engine.Actor",
+    "map_instances": [],
+    "map_class_imports": []
+  }
+]

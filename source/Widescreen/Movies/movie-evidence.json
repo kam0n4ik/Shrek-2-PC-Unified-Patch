@@ -1,0 +1,131 @@
+{
+  "original_sha256": "5ff643295ef507e399ccd4c886f9f36928f7ea43d815c58004176aa557706c61",
+  "patched_sha256": "2524499a9bf51795798e5d037b0cfe8f9d165d1820ac433262c9e39ebd7232d4",
+  "site": "0x100244a5",
+  "resume": "0x100244e7",
+  "cave": "0x10001800",
+  "code_bytes": 503,
+  "sampling": "nearest-neighbour centered fit",
+  "movie_headers": [
+    {
+      "file": "ACTIVSN.bik",
+      "bytes": 2680816,
+      "signature": "BIKi",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "file": "ACTIVSN1024.bik",
+      "bytes": 2713696,
+      "signature": "BIKi",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "ACTIVSN512.bik",
+      "bytes": 2652724,
+      "signature": "BIKi",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "file": "ACTIVSN640.bik",
+      "bytes": 2662900,
+      "signature": "BIKi",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "file": "black.bik",
+      "bytes": 1444,
+      "signature": "BIKi",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "file": "DW_LOGO.bik",
+      "bytes": 5490912,
+      "signature": "BIKi",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "file": "DW_LOGO1024.bik",
+      "bytes": 5527872,
+      "signature": "BIKi",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "DW_LOGO512.bik",
+      "bytes": 5454552,
+      "signature": "BIKi",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "file": "DW_LOGO640.bik",
+      "bytes": 5466772,
+      "signature": "BIKi",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "file": "FGMcommercial.bik",
+      "bytes": 10697028,
+      "signature": "BIKi",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "file": "FGMcommercial1024.bik",
+      "bytes": 11042136,
+      "signature": "BIKi",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "FGMcommercial512.bik",
+      "bytes": 9883740,
+      "signature": "BIKi",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "file": "FGMcommercial640.bik",
+      "bytes": 9701480,
+      "signature": "BIKi",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "file": "KWLogo.bik",
+      "bytes": 2439756,
+      "signature": "BIKi",
+      "width": 640,
+      "height": 480
+    },
+    {
+      "file": "KWLogo1024.bik",
+      "bytes": 2901056,
+      "signature": "BIKi",
+      "width": 1024,
+      "height": 768
+    },
+    {
+      "file": "kwlogo512.bik",
+      "bytes": 2158132,
+      "signature": "BIKi",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "file": "kwlogo640.bik",
+      "bytes": 2467532,
+      "signature": "BIKi",
+      "width": 640,
+      "height": 480
+    }
+  ],
+  "runtime_gameplay_verified": false
+}

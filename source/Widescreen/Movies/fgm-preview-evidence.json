@@ -1,0 +1,21 @@
+{
+  "source": [
+    1024,
+    768
+  ],
+  "target": [
+    2560,
+    1440
+  ],
+  "bpp": 4,
+  "rebase": "0x10000000",
+  "rect": [
+    320,
+    0,
+    1920,
+    1440
+  ],
+  "full_pixel_comparison": true,
+  "malloc_failure": false,
+  "elapsed_emulation_seconds": 0.908
+}

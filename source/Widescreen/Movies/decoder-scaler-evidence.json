@@ -1,0 +1,135 @@
+{
+  "status": "passed",
+  "actual_bink_decoder_cases": 8,
+  "emulated_scaler_with_actual_decoder_frames": [
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        1280,
+        720
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        160,
+        0,
+        960,
+        720
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.407,
+      "movie": "FGMcommercial1024.bik",
+      "frame": 241,
+      "actual_decoder_flags": "0x80000005",
+      "decoder_sha256": "e78ef7e8ed68067c0ecd813f6114f5a9e45541411f104496b4cdcfab234d0a0b",
+      "preview": "decoder-scaler-FGMcommercial1024-1280x720.png"
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        2560,
+        1440
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        320,
+        0,
+        1920,
+        1440
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.899,
+      "movie": "FGMcommercial1024.bik",
+      "frame": 241,
+      "actual_decoder_flags": "0x80000005",
+      "decoder_sha256": "e78ef7e8ed68067c0ecd813f6114f5a9e45541411f104496b4cdcfab234d0a0b",
+      "preview": "decoder-scaler-FGMcommercial1024-2560x1440.png"
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        1280,
+        720
+      ],
+      "bpp": 2,
+      "rebase": "0x10000000",
+      "rect": [
+        160,
+        0,
+        960,
+        720
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.261,
+      "movie": "KWLogo1024.bik",
+      "frame": 37,
+      "actual_decoder_flags": "0x8000000A",
+      "decoder_sha256": "e78ef7e8ed68067c0ecd813f6114f5a9e45541411f104496b4cdcfab234d0a0b"
+    },
+    {
+      "source": [
+        512,
+        384
+      ],
+      "target": [
+        1920,
+        1080
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        240,
+        0,
+        1440,
+        1080
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.412,
+      "movie": "ACTIVSN512.bik",
+      "frame": 20,
+      "actual_decoder_flags": "0x80000005",
+      "decoder_sha256": "e78ef7e8ed68067c0ecd813f6114f5a9e45541411f104496b4cdcfab234d0a0b",
+      "preview": "decoder-scaler-ACTIVSN512-1920x1080.png"
+    },
+    {
+      "source": [
+        640,
+        480
+      ],
+      "target": [
+        1366,
+        768
+      ],
+      "bpp": 2,
+      "rebase": "0x10000000",
+      "rect": [
+        171,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.274,
+      "movie": "DW_LOGO640.bik",
+      "frame": 20,
+      "actual_decoder_flags": "0x8000000A",
+      "decoder_sha256": "e78ef7e8ed68067c0ecd813f6114f5a9e45541411f104496b4cdcfab234d0a0b"
+    }
+  ],
+  "live_game_playback_verified": false
+}

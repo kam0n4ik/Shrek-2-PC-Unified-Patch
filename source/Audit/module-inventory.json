@@ -1,0 +1,371 @@
+[
+  {
+    "name": "ALAudio.dll",
+    "bytes": 122880,
+    "sha256": "d1e85d937357e3940017758dfb558db2d3ab33372f09120e2b20d2f65099b5ea",
+    "machine": "0x14c",
+    "exports": 49,
+    "imports": {
+      "Core.dll": 140,
+      "Engine.dll": 22,
+      "vorbisfile.dll": 3,
+      "MSVCR70.dll": 11
+    }
+  },
+  {
+    "name": "bink.exe",
+    "bytes": 47104,
+    "sha256": "462b98fc8b6ce1f73c58021f9a86f73c72522b21e3b14ebc2915fe457860716f",
+    "machine": "0x14c",
+    "exports": 0,
+    "imports": {
+      "USER32.dll": 6,
+      "KERNEL32.dll": 40,
+      "radutil.dll": 34,
+      "binkmake.dll": 5
+    }
+  },
+  {
+    "name": "binkmake.dll",
+    "bytes": 108544,
+    "sha256": "78982066cb6207c80dfb5475f1014582f9c2c37e2bf3ff55282d627c567b4f39",
+    "machine": "0x14c",
+    "exports": 10,
+    "imports": {
+      "KERNEL32.DLL": 2,
+      "USER32.dll": 1,
+      "WINMM.dll": 1
+    }
+  },
+  {
+    "name": "binkw32.dll",
+    "bytes": 377856,
+    "sha256": "e78ef7e8ed68067c0ecd813f6114f5a9e45541411f104496b4cdcfab234d0a0b",
+    "machine": "0x14c",
+    "exports": 85,
+    "imports": {
+      "USER32.dll": 28,
+      "GDI32.dll": 12,
+      "KERNEL32.dll": 66,
+      "WINMM.dll": 10
+    }
+  },
+  {
+    "name": "Core.dll",
+    "bytes": 954368,
+    "sha256": "88900e10c884dde432e0c7216a81f928a608eabdae4194d7eeaaa2cfaf58884e",
+    "machine": "0x14c",
+    "exports": 2399,
+    "imports": {
+      "vorbisfile.dll": 4,
+      "WINMM.dll": 3,
+      "KERNEL32.dll": 46,
+      "USER32.dll": 8,
+      "ADVAPI32.dll": 2,
+      "SHELL32.dll": 2,
+      "ole32.dll": 1,
+      "MSVCR70.dll": 52
+    }
+  },
+  {
+    "name": "D3DDrv.dll",
+    "bytes": 651264,
+    "sha256": "5ff643295ef507e399ccd4c886f9f36928f7ea43d815c58004176aa557706c61",
+    "machine": "0x14c",
+    "exports": 38,
+    "imports": {
+      "Core.dll": 154,
+      "Engine.dll": 76,
+      "d3d8.dll": 1,
+      "binkw32.dll": 1,
+      "KERNEL32.dll": 24,
+      "USER32.dll": 11,
+      "GDI32.dll": 12,
+      "ADVAPI32.dll": 3,
+      "MSVCR70.dll": 32
+    }
+  },
+  {
+    "name": "DefOpenAL32.dll",
+    "bytes": 159744,
+    "sha256": "ea082c313447e31f291425e7ec3e24a14bee72b3396d59b5d7ede259893a2d49",
+    "machine": "0x14c",
+    "exports": 72,
+    "imports": {
+      "KERNEL32.dll": 51,
+      "WINMM.dll": 12,
+      "USER32.dll": 3,
+      "ole32.dll": 3
+    }
+  },
+  {
+    "name": "Editor.dll",
+    "bytes": 1163264,
+    "sha256": "0ac7ece740e095ee383e2bc364e93c721cd2fc12f14cd49122a52b7308202f5f",
+    "machine": "0x14c",
+    "exports": 726,
+    "imports": {
+      "Core.dll": 625,
+      "Engine.dll": 383,
+      "USER32.dll": 1,
+      "GDI32.dll": 15,
+      "MSVCR70.dll": 13
+    }
+  },
+  {
+    "name": "Engine.dll",
+    "bytes": 4980736,
+    "sha256": "a39a795e3dd26789d094273e2d2923baef7766e6143d5ff628f6f18b10bd0e58",
+    "machine": "0x14c",
+    "exports": 6392,
+    "imports": {
+      "Core.dll": 746,
+      "IFC23.dll": 10,
+      "binkw32.dll": 11,
+      "USER32.dll": 1,
+      "ADVAPI32.dll": 5,
+      "MSVCR70.dll": 76
+    }
+  },
+  {
+    "name": "Fire.dll",
+    "bytes": 135168,
+    "sha256": "9e41f818e54831c1635975f27b760129ba5dca1ca029442ba5128a65e3e39fe6",
+    "machine": "0x14c",
+    "exports": 147,
+    "imports": {
+      "Core.dll": 56,
+      "Engine.dll": 40,
+      "MSVCR70.dll": 11
+    }
+  },
+  {
+    "name": "game.exe",
+    "bytes": 274432,
+    "sha256": "4900aa131cf35d4951943f2d6ee831841745af8e5d657ffdcfd7fb012cbaa2ef",
+    "machine": "0x14c",
+    "exports": 1,
+    "imports": {
+      "Window.dll": 146,
+      "Core.dll": 175,
+      "Engine.dll": 9,
+      "comdlg32.dll": 1,
+      "d3d8.dll": 1,
+      "DDRAW.dll": 1,
+      "KERNEL32.dll": 52,
+      "USER32.dll": 26,
+      "SHELL32.dll": 2,
+      "MSVCR70.dll": 25
+    }
+  },
+  {
+    "name": "GUI.dll",
+    "bytes": 339968,
+    "sha256": "8a964d576f315ddc6a3bbcf4b86d44c36a7d86ae70a350f7bf78a75f38fe7e08",
+    "machine": "0x14c",
+    "exports": 849,
+    "imports": {
+      "Core.dll": 99,
+      "Engine.dll": 15,
+      "MSVCR70.dll": 11
+    }
+  },
+  {
+    "name": "IFC23.DLL",
+    "bytes": 237568,
+    "sha256": "25927b0415e856237859c9cb54bc3ac6c19637382741f2234d3cbeae1a06ac70",
+    "machine": "0x14c",
+    "exports": 719,
+    "imports": {
+      "ADVAPI32.dll": 1,
+      "USER32.dll": 6,
+      "ole32.dll": 7,
+      "VERSION.dll": 3,
+      "GDI32.dll": 5,
+      "KERNEL32.dll": 72
+    }
+  },
+  {
+    "name": "IpDrv.dll",
+    "bytes": 270336,
+    "sha256": "a13baaadc37d6f04a98323280b63417035d687d8da86fde3580febe4d2e6d41b",
+    "machine": "0x14c",
+    "exports": 364,
+    "imports": {
+      "WSOCK32.dll": 26,
+      "Core.dll": 206,
+      "Engine.dll": 183,
+      "KERNEL32.dll": 2,
+      "MSVCR70.dll": 12
+    }
+  },
+  {
+    "name": "KWGame.dll",
+    "bytes": 139264,
+    "sha256": "35ff1595597e5955b67423552224789636094c08b50bb785a2e81c24331c7cf7",
+    "machine": "0x14c",
+    "exports": 145,
+    "imports": {
+      "Core.dll": 67,
+      "Engine.dll": 193,
+      "MSVCR70.dll": 11
+    }
+  },
+  {
+    "name": "msvcr70.dll",
+    "bytes": 344064,
+    "sha256": "f68e4cdbc879423ea47d763a6768567f5f8063924f13a74239750c13fa8d168a",
+    "machine": "0x14c",
+    "exports": 839,
+    "imports": {
+      "KERNEL32.dll": 153
+    }
+  },
+  {
+    "name": "ogg.dll",
+    "bytes": 11264,
+    "sha256": "f9595ac4df7dae7408e4b69abf40a9c8bf4c941f30da4ca5361f4360e845f81b",
+    "machine": "0x14c",
+    "exports": 43,
+    "imports": {
+      "MSVCR70.dll": 10,
+      "KERNEL32.dll": 1
+    }
+  },
+  {
+    "name": "PixoDrv.dll",
+    "bytes": 196608,
+    "sha256": "0299a6128be445b61810154460b9f7e009a1d369496f59726904415196cecfcc",
+    "machine": "0x14c",
+    "exports": 45,
+    "imports": {
+      "Core.dll": 146,
+      "Engine.dll": 60,
+      "binkw32.dll": 1,
+      "KERNEL32.dll": 2,
+      "USER32.dll": 7,
+      "GDI32.dll": 2,
+      "pixomatic.dll": 60,
+      "MSVCR70.dll": 14
+    }
+  },
+  {
+    "name": "pixomatic.dll",
+    "bytes": 226361,
+    "sha256": "4944ee7b5a5626fa474d26cf84d454e874432ca3851391458da0d905df5280e1",
+    "machine": "0x14c",
+    "exports": 237,
+    "imports": {
+      "KERNEL32.dll": 16,
+      "USER32.dll": 4,
+      "GDI32.dll": 9
+    }
+  },
+  {
+    "name": "pixomatic_debug.dll",
+    "bytes": 397373,
+    "sha256": "ace9d91cde2dd157fc8486107c1bb4f5249847d733c3d600fb4dd4ffd8dbee1c",
+    "machine": "0x14c",
+    "exports": 237,
+    "imports": {
+      "KERNEL32.dll": 62,
+      "USER32.dll": 4,
+      "GDI32.dll": 9
+    }
+  },
+  {
+    "name": "PrivateProfileString.dll",
+    "bytes": 6656,
+    "sha256": "d6270763b6313bea19a84a6fe3131e26702fbe97baf0ed9c04373be4f506126d",
+    "machine": "0x14c",
+    "exports": 0,
+    "imports": {
+      "mscoree.dll": 1
+    }
+  },
+  {
+    "name": "radutil.dll",
+    "bytes": 223232,
+    "sha256": "639b590081ec93ddf069531ac4ef3f660fb802ba97cb169e93571c78d2652dff",
+    "machine": "0x14c",
+    "exports": 150,
+    "imports": {
+      "KERNEL32.DLL": 2,
+      "AVIFIL32.dll": 1,
+      "GDI32.dll": 1,
+      "USER32.dll": 1,
+      "WINMM.dll": 1
+    }
+  },
+  {
+    "name": "StrUtils.dll",
+    "bytes": 7680,
+    "sha256": "01e72ea50a27760c5719486a4ff3095c78d93a4513b3584bcbdb1be6e77cdc1a",
+    "machine": "0x14c",
+    "exports": 0,
+    "imports": {
+      "mscoree.dll": 1
+    }
+  },
+  {
+    "name": "vorbis.dll",
+    "bytes": 126976,
+    "sha256": "591f14cc128999ad3dc1d2daeddfd333d7589563d638e44cfa2696050c99a8b4",
+    "machine": "0x14c",
+    "exports": 35,
+    "imports": {
+      "ogg.dll": 11,
+      "MSVCR70.dll": 23,
+      "KERNEL32.dll": 1
+    }
+  },
+  {
+    "name": "vorbisfile.dll",
+    "bytes": 16896,
+    "sha256": "092a74de60b5148293ccd80b5f65fc5be2e8ead45909f91a5f4b60f3af71d633",
+    "machine": "0x14c",
+    "exports": 25,
+    "imports": {
+      "ogg.dll": 16,
+      "vorbis.dll": 16,
+      "MSVCR70.dll": 15,
+      "KERNEL32.dll": 1
+    }
+  },
+  {
+    "name": "Window.dll",
+    "bytes": 512000,
+    "sha256": "6a7ced1fb8bfd4dee189b0a393391ce385feece99e18fda298e62ee89dcd79d9",
+    "machine": "0x14c",
+    "exports": 1047,
+    "imports": {
+      "Core.dll": 179,
+      "Engine.dll": 4,
+      "COMCTL32.dll": 1,
+      "KERNEL32.dll": 9,
+      "USER32.dll": 100,
+      "GDI32.dll": 23,
+      "comdlg32.dll": 1,
+      "SHELL32.dll": 3,
+      "MSVCR70.dll": 14
+    }
+  },
+  {
+    "name": "WinDrv.dll",
+    "bytes": 405504,
+    "sha256": "adc511b1ad39fbe94054be7b5f5f0838a3caf81f157c4a5b1b53bde5c7039cd3",
+    "machine": "0x14c",
+    "exports": 88,
+    "imports": {
+      "Window.dll": 67,
+      "Core.dll": 138,
+      "Engine.dll": 43,
+      "DINPUT8.dll": 1,
+      "IMM32.dll": 6,
+      "KERNEL32.dll": 10,
+      "USER32.dll": 64,
+      "GDI32.dll": 14,
+      "MSVCR70.dll": 15
+    }
+  }
+]

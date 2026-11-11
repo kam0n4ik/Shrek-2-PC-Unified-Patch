@@ -1,0 +1,29 @@
+{
+  "SHGame.u": {
+    "preserved_object_indices": true,
+    "preserved_original_names": true,
+    "preserved_GUID": true,
+    "only_new_widescreen_exports_changed": [
+      7374,
+      8077,
+      8204,
+      8494
+    ],
+    "previous_gameplay_and_video_fix_payloads_unchanged": true,
+    "sha256": "d34ade215dfb3103ce5cd60dc6b4e10fec9ccd2c1f202b862953304c941b271d"
+  },
+  "KWGame.u": {
+    "preserved_object_indices": true,
+    "preserved_original_names": true,
+    "preserved_GUID": true,
+    "only_new_widescreen_exports_changed": [
+      225,
+      394,
+      5506,
+      5578,
+      5633
+    ],
+    "previous_gameplay_and_video_fix_payloads_unchanged": true,
+    "sha256": "97abe1c633d2e2c85bf8aebe1f0727edac6ce46974ead54b2ad5a14a6feca43f"
+  }
+}

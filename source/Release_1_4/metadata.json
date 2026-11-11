@@ -1,0 +1,25 @@
+{
+  "input": "<work>\\work\\widescreen\\final\\System\\SHGame.u",
+  "output": "<work>\\work\\vsync\\v14\\built\\System\\SHGame.u",
+  "old_sha256": "d34ade215dfb3103ce5cd60dc6b4e10fec9ccd2c1f202b862953304c941b271d",
+  "new_sha256": "7f86eca8a87444a778bc9df812dcb9392479a7c57ddeb9788a590e2f4ca643ec",
+  "export_index": 8093,
+  "export_offset": 3114735,
+  "export_size": 1214,
+  "patch_file_offset": 3114805,
+  "patch_export_offset": 70,
+  "old_bytes": "14 2d 19 01 6d 05 05 00 04 01 c2 03 27",
+  "new_bytes": "14 19 01 6d 05 06 00 04 2d 01 c2 03 27",
+  "storage_length_unchanged": true,
+  "memory_length_unchanged": true,
+  "changed_file_bytes": [
+    3114806,
+    3114807,
+    3114808,
+    3114809,
+    3114810,
+    3114811,
+    3114812,
+    3114813
+  ]
+}

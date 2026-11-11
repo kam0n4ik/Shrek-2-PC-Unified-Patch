@@ -1,0 +1,586 @@
+{
+  "machine_code_tests": [
+    {
+      "source": [
+        4,
+        3
+      ],
+      "target": [
+        16,
+        9
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        2,
+        0,
+        12,
+        9
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.003
+    },
+    {
+      "source": [
+        16,
+        12
+      ],
+      "target": [
+        8,
+        4
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        1,
+        0,
+        5,
+        4
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.005
+    },
+    {
+      "source": [
+        4,
+        3
+      ],
+      "target": [
+        6,
+        10
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        0,
+        3,
+        6,
+        4
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.004
+    },
+    {
+      "source": [
+        4,
+        3
+      ],
+      "target": [
+        16,
+        9
+      ],
+      "bpp": 2,
+      "rebase": "0x10000000",
+      "rect": [
+        2,
+        0,
+        12,
+        9
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.005
+    },
+    {
+      "source": [
+        4,
+        3
+      ],
+      "target": [
+        4,
+        3
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        0,
+        0,
+        4,
+        3
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.003
+    },
+    {
+      "source": [
+        4,
+        3
+      ],
+      "target": [
+        16,
+        9
+      ],
+      "bpp": 4,
+      "rebase": "0x20000000",
+      "rect": [
+        2,
+        0,
+        12,
+        9
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": false,
+      "elapsed_emulation_seconds": 0.002
+    },
+    {
+      "source": [
+        4,
+        3
+      ],
+      "target": [
+        16,
+        9
+      ],
+      "bpp": 4,
+      "rebase": "0x10000000",
+      "rect": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_pixel_comparison": true,
+      "malloc_failure": true,
+      "elapsed_emulation_seconds": 0.001
+    },
+    {
+      "source": [
+        512,
+        384
+      ],
+      "target": [
+        1280,
+        720
+      ],
+      "bpp": 4,
+      "rect": [
+        160,
+        0,
+        960,
+        720
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        512,
+        384
+      ],
+      "target": [
+        1366,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        171,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        512,
+        384
+      ],
+      "target": [
+        1600,
+        900
+      ],
+      "bpp": 4,
+      "rect": [
+        200,
+        0,
+        1200,
+        900
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        512,
+        384
+      ],
+      "target": [
+        1920,
+        1080
+      ],
+      "bpp": 4,
+      "rect": [
+        240,
+        0,
+        1440,
+        1080
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        512,
+        384
+      ],
+      "target": [
+        2560,
+        1440
+      ],
+      "bpp": 4,
+      "rect": [
+        320,
+        0,
+        1920,
+        1440
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        512,
+        384
+      ],
+      "target": [
+        1024,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        0,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        640,
+        480
+      ],
+      "target": [
+        1280,
+        720
+      ],
+      "bpp": 4,
+      "rect": [
+        160,
+        0,
+        960,
+        720
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        640,
+        480
+      ],
+      "target": [
+        1366,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        171,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        640,
+        480
+      ],
+      "target": [
+        1600,
+        900
+      ],
+      "bpp": 4,
+      "rect": [
+        200,
+        0,
+        1200,
+        900
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        640,
+        480
+      ],
+      "target": [
+        1920,
+        1080
+      ],
+      "bpp": 4,
+      "rect": [
+        240,
+        0,
+        1440,
+        1080
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        640,
+        480
+      ],
+      "target": [
+        2560,
+        1440
+      ],
+      "bpp": 4,
+      "rect": [
+        320,
+        0,
+        1920,
+        1440
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        640,
+        480
+      ],
+      "target": [
+        1024,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        0,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        800,
+        600
+      ],
+      "target": [
+        1280,
+        720
+      ],
+      "bpp": 4,
+      "rect": [
+        160,
+        0,
+        960,
+        720
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        800,
+        600
+      ],
+      "target": [
+        1366,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        171,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        800,
+        600
+      ],
+      "target": [
+        1600,
+        900
+      ],
+      "bpp": 4,
+      "rect": [
+        200,
+        0,
+        1200,
+        900
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        800,
+        600
+      ],
+      "target": [
+        1920,
+        1080
+      ],
+      "bpp": 4,
+      "rect": [
+        240,
+        0,
+        1440,
+        1080
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        800,
+        600
+      ],
+      "target": [
+        2560,
+        1440
+      ],
+      "bpp": 4,
+      "rect": [
+        320,
+        0,
+        1920,
+        1440
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        800,
+        600
+      ],
+      "target": [
+        1024,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        0,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        1280,
+        720
+      ],
+      "bpp": 4,
+      "rect": [
+        160,
+        0,
+        960,
+        720
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        1366,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        171,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        1600,
+        900
+      ],
+      "bpp": 4,
+      "rect": [
+        200,
+        0,
+        1200,
+        900
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        1920,
+        1080
+      ],
+      "bpp": 4,
+      "rect": [
+        240,
+        0,
+        1440,
+        1080
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        2560,
+        1440
+      ],
+      "bpp": 4,
+      "rect": [
+        320,
+        0,
+        1920,
+        1440
+      ],
+      "full_pixel_comparison": false
+    },
+    {
+      "source": [
+        1024,
+        768
+      ],
+      "target": [
+        1024,
+        768
+      ],
+      "bpp": 4,
+      "rect": [
+        0,
+        0,
+        1024,
+        768
+      ],
+      "full_pixel_comparison": false
+    }
+  ],
+  "pixel_comparisons_passed": 7,
+  "rectangle_cases_passed": 24,
+  "live_game_verified": false
+}

@@ -1,0 +1,173 @@
+{
+  "result": "passed",
+  "installed_sha256": "d34ade215dfb3103ce5cd60dc6b4e10fec9ccd2c1f202b862953304c941b271d",
+  "counts": {
+    "selection_only": 16,
+    "apply_confirmation": 192,
+    "empty_execute": 4
+  },
+  "branch_context_validation": "all dumped installed functions passed",
+  "delegate_binding_checks": {
+    "original": [
+      {
+        "offset": 2379,
+        "property_ref": -702,
+        "property": "GUI.GUIComponent.__OnChange__Delegate",
+        "target_name_index": 1302,
+        "target_name": "TabOptions_OnChange",
+        "bytes": "451910004e0601f20205000801fe0a445614"
+      },
+      {
+        "offset": 2405,
+        "property_ref": -867,
+        "property": "GUI.GUIComponent.__OnActivate__Delegate",
+        "target_name_index": 0,
+        "target_name": "None",
+        "bytes": "451910004e0601f20205000801e30d4400"
+      }
+    ],
+    "installed": [
+      {
+        "offset": 2418,
+        "property_ref": -702,
+        "property": "GUI.GUIComponent.__OnChange__Delegate",
+        "target_name_index": 1302,
+        "target_name": "TabOptions_OnChange",
+        "bytes": "451910004e0601f20205000801fe0a445614"
+      },
+      {
+        "offset": 2444,
+        "property_ref": -867,
+        "property": "GUI.GUIComponent.__OnActivate__Delegate",
+        "target_name_index": 0,
+        "target_name": "None",
+        "bytes": "451910004e0601f20205000801e30d4400"
+      }
+    ],
+    "unchanged_reviewed_functions": [
+      {
+        "function": "VideoChangeOK.Execute",
+        "index": 7949,
+        "offset": 3113937,
+        "size": 575,
+        "sha256": "35f876507a670e4c675230b8615915c771fed49975e2026046772c4c3f979205"
+      },
+      {
+        "function": "VideoChangeOK.InternalOnClick",
+        "index": 6772,
+        "offset": 3112955,
+        "size": 369,
+        "sha256": "2ff674b090374778bdf23c096cbc6aae9ed12f0b7c63ef0712da7dcba058d28d"
+      },
+      {
+        "function": "VideoChangeOK.Timer",
+        "index": 12548,
+        "offset": 3116246,
+        "size": 418,
+        "sha256": "76d1277a3e2efcda19699fdc062408e40260aa34e247928f4c9e4a3c0cddbe10"
+      },
+      {
+        "function": "VideoChangeOK.startTimer",
+        "index": 12555,
+        "offset": 2550169,
+        "size": 46,
+        "sha256": "3a9affdccc4116d78fc921ffc1f308714d4ae28e874d9b9ddeb948c30306efc0"
+      },
+      {
+        "function": "Tab_OptionsVideo.ApplyChanges",
+        "index": 8061,
+        "offset": 3114512,
+        "size": 223,
+        "sha256": "6a799fb64881d755e73e042573afdb4922eec7c784131e1b4d9e1a70e64fb451"
+      },
+      {
+        "function": "Tab_OptionsVideo.TabOptions_OnChange",
+        "index": 8093,
+        "offset": 3114735,
+        "size": 1214,
+        "sha256": "bb674ddb0e75da1b171cee31719a16cfe4bd8084b90dfc0ab63c66eabc0b27c5"
+      },
+      {
+        "function": "Tab_OptionsVideo.TabOptions_OnLoadINI",
+        "index": 7859,
+        "offset": 3113324,
+        "size": 613,
+        "sha256": "e8ee16fa7cf1964c02de9105831e11c15c0f8a3a880b77025705dce8e025cb17"
+      },
+      {
+        "function": "Tab_OptionsVideo.Refresh",
+        "index": 11857,
+        "offset": 2509753,
+        "size": 57,
+        "sha256": "11ef40f6b4a42bcfa8a345c268dd1b4ece2d5178deaf223a673e430cbb4444fa"
+      }
+    ]
+  },
+  "same_res_off_sample": [
+    {
+      "outcome": "accept",
+      "commands": [
+        "get ini:Engine.Engine.RenderDevice UseVSync",
+        "ISFULLSCREEN",
+        "set ini:Engine.Engine.RenderDevice UseVSync False",
+        "set ini:Engine.Engine.RenderDevice Use16bit False",
+        "set ini:Engine.Engine.RenderDevice MaxResWidth 2560",
+        "set ini:Engine.Engine.RenderDevice MaxResHeight 1440",
+        "setres 1920x1080x32w",
+        "ISFULLSCREEN",
+        "set ini:Engine.Engine.ViewportManager StartupFullscreen False"
+      ],
+      "calls": [
+        {
+          "function": "Tab_OptionsVideo.ApplyChanges",
+          "depth": 0
+        },
+        {
+          "function": "VideoChangeOK.startTimer",
+          "depth": 1
+        },
+        {
+          "function": "VideoChangeOK.Execute",
+          "depth": 1
+        },
+        {
+          "function": "VideoChangeOK.InternalOnClick",
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "outcome": "accept",
+      "commands": [
+        "get ini:Engine.Engine.RenderDevice UseVSync",
+        "ISFULLSCREEN",
+        "set ini:Engine.Engine.RenderDevice UseVSync False",
+        "set ini:Engine.Engine.RenderDevice Use16bit False",
+        "set ini:Engine.Engine.RenderDevice MaxResWidth 2560",
+        "set ini:Engine.Engine.RenderDevice MaxResHeight 1440",
+        "setres 1920x1080x32f",
+        "ISFULLSCREEN",
+        "set ini:Engine.Engine.ViewportManager StartupFullscreen True"
+      ],
+      "calls": [
+        {
+          "function": "Tab_OptionsVideo.ApplyChanges",
+          "depth": 0
+        },
+        {
+          "function": "VideoChangeOK.startTimer",
+          "depth": 1
+        },
+        {
+          "function": "VideoChangeOK.Execute",
+          "depth": 1
+        },
+        {
+          "function": "VideoChangeOK.InternalOnClick",
+          "depth": 0
+        }
+      ]
+    }
+  ],
+  "limits": "Native ConsoleCommand/rendering and delegate storage are mocked. These tests found no script control-flow defect; they do not exclude heap corruption or native crashes."
+}

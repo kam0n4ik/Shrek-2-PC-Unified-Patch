@@ -1,0 +1,14 @@
+Исходный код установщика .NET Framework 4.x.
+
+Из этой папки собрать в Windows PowerShell:
+
+& "$env:WINDIR\Microsoft.NET\Framework\v4.0.30319\csc.exe" /nologo /target:winexe /out:..\Shrek2VideoPatch.exe /resource:patch.json.gz,patch.json.gz /reference:System.Web.Extensions.dll /reference:System.Windows.Forms.dll /reference:System.Drawing.dll PatchInstaller.cs
+
+patch.json.gz — встроенный манифест с контрольными суммами и изменениями семи
+файлов. Исходные файлы игры не включены. Для проверки без изменений:
+
+& '..\Shrek2VideoPatch.exe' --system "E:\Shrek 2\System" --check --report check.txt
+
+Для отката:
+
+& '..\Shrek2VideoPatch.exe' --system "E:\Shrek 2\System" --restore --report restore.txt

@@ -1,0 +1,227 @@
+{
+  "source": "E:/Shrek 2/System/GUI.dll",
+  "sha256": "8a964d576f315ddc6a3bbcf4b86d44c36a7d86ae70a350f7bf78a75f38fe7e08",
+  "native_ActualLeft_entry": "0x1001AA10",
+  "ActualLeft_relative_branch": [
+    "1001AA73  fld      dword ptr [esi + 0x74]",
+    "1001AA76  fcomp    dword ptr [0x10035474]",
+    "1001AA7C  fnstsw   ax",
+    "1001AA7E  mov      al, byte ptr [esi + 0x5c]",
+    "1001AA81  test     ah, 0x41",
+    "1001AA84  jp       0x1001aad8",
+    "1001AA86  test     al, 1",
+    "1001AA88  je       0x1001aabe",
+    "1001AA8A  mov      ecx, dword ptr [esi + 0x30]",
+    "1001AA8D  test     ecx, ecx",
+    "1001AA8F  je       0x1001aabe",
+    "1001AA91  mov      edx, dword ptr [ecx]",
+    "1001AA93  call     dword ptr [edx + 0x84]",
+    "1001AA99  fstp     dword ptr [ebp - 0x18]",
+    "1001AA9C  mov      ecx, dword ptr [esi + 0x30]",
+    "1001AA9F  mov      eax, dword ptr [ecx]",
+    "1001AAA1  call     dword ptr [eax + 0x7c]",
+    "1001AAA4  fst      dword ptr [ebp - 0x14]",
+    "1001AAA7  fmul     dword ptr [esi + 0x74]",
+    "1001AAAA  fadd     dword ptr [ebp - 0x18]",
+    "1001AAAD  mov      ecx, dword ptr [ebp - 0xc]",
+    "1001AAB0  mov      dword ptr fs:[0], ecx",
+    "1001AAB7  pop      edi",
+    "1001AAB8  pop      esi",
+    "1001AAB9  pop      ebx",
+    "1001AABA  mov      esp, ebp",
+    "1001AABC  pop      ebp",
+    "1001AABD  ret      ",
+    "1001AABE  fild     dword ptr [edx + 0x8c]",
+    "1001AAC4  fmul     dword ptr [esi + 0x74]",
+    "1001AAC7  mov      ecx, dword ptr [ebp - 0xc]",
+    "1001AACA  mov      dword ptr fs:[0], ecx",
+    "1001AAD1  pop      edi",
+    "1001AAD2  pop      esi",
+    "1001AAD3  pop      ebx",
+    "1001AAD4  mov      esp, ebp",
+    "1001AAD6  pop      ebp",
+    "1001AAD7  ret      "
+  ],
+  "UpdateBounds_no_clamp": [
+    "10016FBC  call     dword ptr [eax + 0x84]"
+  ],
+  "GUITabControl_PreDraw_uses_ActualLeft_for_row_placement": [
+    "1001E81F  mov      eax, dword ptr [esi]",
+    "1001E821  mov      dword ptr [ebp - 0x14], ecx",
+    "1001E824  mov      ecx, esi",
+    "1001E826  inc      ebx",
+    "1001E827  call     dword ptr [eax + 0x88]",
+    "1001E82D  fstp     dword ptr [ebp - 0x40]",
+    "1001E830  fld      dword ptr [ebp - 0x34]",
+    "1001E833  xor      edi, edi",
+    "1001E835  fadd     dword ptr [ebp - 0x40]",
+    "1001E838  fadd     dword ptr [ebp - 0x18]",
+    "1001E83B  fstp     dword ptr [ebp - 0x34]"
+  ],
+  "test_cases": [
+    {
+      "actual_viewport_width": 512,
+      "saved_fullscreen_width": 512,
+      "parent_bound": false,
+      "original_WinLeft": 0.2832031,
+      "original_native_ActualLeft_pixels": 144.99998474121094,
+      "bounded_active_width_WinLeft": 0.2832031,
+      "bounded_native_ActualLeft_pixels": 144.99998474121094
+    },
+    {
+      "actual_viewport_width": 512,
+      "saved_fullscreen_width": 512,
+      "parent_bound": true,
+      "original_WinLeft": 0.2832031,
+      "original_native_ActualLeft_pixels": 144.99998474121094,
+      "bounded_active_width_WinLeft": 0.2832031,
+      "bounded_native_ActualLeft_pixels": 144.99998474121094
+    },
+    {
+      "actual_viewport_width": 640,
+      "saved_fullscreen_width": 640,
+      "parent_bound": false,
+      "original_WinLeft": 0.374,
+      "original_native_ActualLeft_pixels": 239.36001586914062,
+      "bounded_active_width_WinLeft": 0.374,
+      "bounded_native_ActualLeft_pixels": 239.36001586914062
+    },
+    {
+      "actual_viewport_width": 640,
+      "saved_fullscreen_width": 640,
+      "parent_bound": true,
+      "original_WinLeft": 0.374,
+      "original_native_ActualLeft_pixels": 239.36001586914062,
+      "bounded_active_width_WinLeft": 0.374,
+      "bounded_native_ActualLeft_pixels": 239.36001586914062
+    },
+    {
+      "actual_viewport_width": 800,
+      "saved_fullscreen_width": 800,
+      "parent_bound": false,
+      "original_WinLeft": 0.3425,
+      "original_native_ActualLeft_pixels": 274.0,
+      "bounded_active_width_WinLeft": 0.3425,
+      "bounded_native_ActualLeft_pixels": 274.0
+    },
+    {
+      "actual_viewport_width": 800,
+      "saved_fullscreen_width": 800,
+      "parent_bound": true,
+      "original_WinLeft": 0.3425,
+      "original_native_ActualLeft_pixels": 274.0,
+      "bounded_active_width_WinLeft": 0.3425,
+      "bounded_native_ActualLeft_pixels": 274.0
+    },
+    {
+      "actual_viewport_width": 1024,
+      "saved_fullscreen_width": 1024,
+      "parent_bound": false,
+      "original_WinLeft": 0.2984,
+      "original_native_ActualLeft_pixels": 305.5616149902344,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 305.5616149902344
+    },
+    {
+      "actual_viewport_width": 1024,
+      "saved_fullscreen_width": 1024,
+      "parent_bound": true,
+      "original_WinLeft": 0.2984,
+      "original_native_ActualLeft_pixels": 305.5616149902344,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 305.5616149902344
+    },
+    {
+      "actual_viewport_width": 1280,
+      "saved_fullscreen_width": 1280,
+      "parent_bound": false,
+      "original_WinLeft": 0.248,
+      "original_native_ActualLeft_pixels": 317.44000244140625,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 381.9520263671875
+    },
+    {
+      "actual_viewport_width": 1280,
+      "saved_fullscreen_width": 1280,
+      "parent_bound": true,
+      "original_WinLeft": 0.248,
+      "original_native_ActualLeft_pixels": 317.44000244140625,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 381.9520263671875
+    },
+    {
+      "actual_viewport_width": 1920,
+      "saved_fullscreen_width": 1920,
+      "parent_bound": false,
+      "original_WinLeft": 0.122,
+      "original_native_ActualLeft_pixels": 234.24000549316406,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 572.9280395507812
+    },
+    {
+      "actual_viewport_width": 1920,
+      "saved_fullscreen_width": 1920,
+      "parent_bound": true,
+      "original_WinLeft": 0.122,
+      "original_native_ActualLeft_pixels": 234.24000549316406,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 572.9280395507812
+    },
+    {
+      "actual_viewport_width": 2560,
+      "saved_fullscreen_width": 2560,
+      "parent_bound": false,
+      "original_WinLeft": -0.0040000000000000036,
+      "original_native_ActualLeft_pixels": -10.24000072479248,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 763.904052734375
+    },
+    {
+      "actual_viewport_width": 2560,
+      "saved_fullscreen_width": 2560,
+      "parent_bound": true,
+      "original_WinLeft": -0.0040000000000000036,
+      "original_native_ActualLeft_pixels": -10.24000072479248,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 763.904052734375
+    },
+    {
+      "actual_viewport_width": 1280,
+      "saved_fullscreen_width": 2560,
+      "parent_bound": false,
+      "original_WinLeft": -0.0040000000000000036,
+      "original_native_ActualLeft_pixels": -5.12000036239624,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 381.9520263671875
+    },
+    {
+      "actual_viewport_width": 1280,
+      "saved_fullscreen_width": 2560,
+      "parent_bound": true,
+      "original_WinLeft": -0.0040000000000000036,
+      "original_native_ActualLeft_pixels": -5.12000036239624,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 381.9520263671875
+    },
+    {
+      "actual_viewport_width": 1920,
+      "saved_fullscreen_width": 512,
+      "parent_bound": false,
+      "original_WinLeft": 0.2832031,
+      "original_native_ActualLeft_pixels": 543.7499389648438,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 572.9280395507812
+    },
+    {
+      "actual_viewport_width": 1920,
+      "saved_fullscreen_width": 512,
+      "parent_bound": true,
+      "original_WinLeft": 0.2832031,
+      "original_native_ActualLeft_pixels": 543.7499389648438,
+      "bounded_active_width_WinLeft": 0.2984,
+      "bounded_native_ActualLeft_pixels": 572.9280395507812
+    }
+  ],
+  "result": "18 native ActualLeft cases passed; negative original position at 2560 confirmed; capped active-width proposal preserves <=1024 supported baseline positions.",
+  "limitations": "Native coordinate math executed offline. Parent methods return full-page bounds. Caption fonts, complete rendered page appearance, visual centering, and gameplay were not observed."
+}

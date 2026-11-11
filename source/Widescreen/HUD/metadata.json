@@ -1,0 +1,168 @@
+{
+  "KWGame": {
+    "input": "<work>\\work\\audit\\gameplay-fix\\KWGame.u",
+    "output": "<work>\\work\\widescreen\\hud\\built\\KWGame.u",
+    "old_sha256": "58aea9b412f044c4ee30daff975822fe192866f73e4f6cb6f8c06674e9800b89",
+    "new_sha256": "bdf03cd668401a13d32a490ec9ae839db699525119a48379313f42e09823eccd",
+    "functions": [
+      {
+        "path": "KWHud.PostRender",
+        "index": 5578,
+        "old_offset": 373008,
+        "old_size": 218,
+        "new_size": 439,
+        "description": "Scoped centered 4:3 safe area for HudItems and overlays; restore before cutscene borders and Engine.HUD.PostRender."
+      },
+      {
+        "path": "KWCutTextController.DrawText",
+        "index": 5633,
+        "old_offset": 392700,
+        "old_size": 451,
+        "new_size": 650,
+        "description": "Subtitle wrapping/centering and fast-forward icon use the same safe area; exact Canvas metrics restored."
+      }
+    ],
+    "new_names": [
+      "OrgX",
+      "ClipX"
+    ],
+    "new_imports": [
+      {
+        "index": -823,
+        "class_package": 2,
+        "class_name": 2949,
+        "outer": -24,
+        "name": "OrgX",
+        "name_index": 4954
+      },
+      {
+        "index": -824,
+        "class_package": 2,
+        "class_name": 2949,
+        "outer": -24,
+        "name": "ClipX",
+        "name_index": 4955
+      }
+    ],
+    "new_exports": [
+      {
+        "index": 8237,
+        "cls": -18,
+        "super": 0,
+        "outer": 5578,
+        "name": "Width",
+        "name_index": 2861,
+        "flags": 458756,
+        "offset": 1657284,
+        "size": 14
+      },
+      {
+        "index": 8238,
+        "cls": -9,
+        "super": 0,
+        "outer": 5578,
+        "name": "X",
+        "name_index": 1937,
+        "flags": 458756,
+        "offset": 1657298,
+        "size": 14
+      },
+      {
+        "index": 8239,
+        "cls": -9,
+        "super": 0,
+        "outer": 5578,
+        "name": "W",
+        "name_index": 2840,
+        "flags": 458756,
+        "offset": 1657312,
+        "size": 12
+      },
+      {
+        "index": 8240,
+        "cls": -18,
+        "super": 0,
+        "outer": 5633,
+        "name": "Width",
+        "name_index": 2861,
+        "flags": 458756,
+        "offset": 1657324,
+        "size": 14
+      },
+      {
+        "index": 8241,
+        "cls": -9,
+        "super": 0,
+        "outer": 5633,
+        "name": "X",
+        "name_index": 1937,
+        "flags": 458756,
+        "offset": 1657338,
+        "size": 14
+      },
+      {
+        "index": 8242,
+        "cls": -9,
+        "super": 0,
+        "outer": 5633,
+        "name": "W",
+        "name_index": 2840,
+        "flags": 458756,
+        "offset": 1657352,
+        "size": 12
+      }
+    ],
+    "changed_exports": [
+      225,
+      394,
+      5578,
+      5633,
+      8237,
+      8238,
+      8239,
+      8240,
+      8241,
+      8242
+    ]
+  },
+  "SHGame": {
+    "input": "<work>\\work\\built\\System\\SHGame.u",
+    "output": "<work>\\work\\widescreen\\hud\\built\\SHGame.u",
+    "old_sha256": "872fe63f115524b682373d340569870ec851e0091796c656c0509fdf9b24b4f3",
+    "new_sha256": "96d1d2977c577f5ca45c2edf6d403341c6c6e2a4e55c0e379a58df5f02fd6cf9",
+    "functions": [
+      {
+        "path": "SHHud.DrawLevelAction",
+        "index": 8204,
+        "old_offset": 856681,
+        "old_size": 873,
+        "new_size": 894,
+        "description": "Loading/saving badges retain 256:64 aspect at the screen center; physical black background untouched."
+      },
+      {
+        "path": "SHCutTextController.Hourglass.RenderHud",
+        "index": 8077,
+        "old_offset": 804122,
+        "old_size": 288,
+        "new_size": 290,
+        "description": "Uniform hourglass icon scale; normalized full-screen border height in cutscene and non-cutscene states."
+      },
+      {
+        "path": "SlotMachine.SlotMachineTakeCoins.CoinWorldLocationFromScreen",
+        "index": 7374,
+        "old_offset": 675551,
+        "old_size": 163,
+        "new_size": 412,
+        "description": "Convert the slot-machine coin source from legacy screen x to the centered HUD safe area before physical world unprojection."
+      }
+    ],
+    "new_names": [],
+    "new_imports": [],
+    "new_exports": [],
+    "changed_exports": [
+      7374,
+      8077,
+      8204
+    ]
+  }
+}

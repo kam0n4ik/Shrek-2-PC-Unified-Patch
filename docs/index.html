@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shrek 2 PC — Unified Patch</title>
+<meta name="description" content="Unofficial patch for Shrek 2 PC (2004): widescreen, up to 2560×1440, windowed mode, VSync, crash fixes, intro skip, developer menu.">
+<meta property="og:title" content="Shrek 2 PC — Unified Patch">
+<meta property="og:description" content="Unofficial patch for Shrek 2 PC (2004): widescreen, up to 2560×1440, windowed mode, VSync, crash fixes, intro skip, developer menu.">
+<meta property="og:image" content="https://kam0n4ik.github.io/Shrek-2-PC-Unified-Patch/shrek-2.jpg">
+<style>
+:root{--bg:#0b0f08;--panel:#141b0f;--line:#26321b;--text:#e8eedf;--muted:#a3b094;--accent:#a6d22a;--accent2:#7fa81c;--warn:#2a2410;--warnline:#5c4d16}
+:root[data-theme="light"]{--bg:#f6f8f1;--panel:#ffffff;--line:#d9e2cc;--text:#1b2414;--muted:#55624a;--accent:#5d8a0c;--accent2:#4a6f08;--warn:#fff7dc;--warnline:#e3cf86}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#f6f8f1;--panel:#ffffff;--line:#d9e2cc;--text:#1b2414;--muted:#55624a;--accent:#5d8a0c;--accent2:#4a6f08;--warn:#fff7dc;--warnline:#e3cf86}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+a{color:var(--accent)}code{font:0.9em ui-monospace,Consolas,monospace;background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0;font-size:14px;color:var(--muted)}
+nav .lang a,nav .lang b{margin-left:12px}nav .lang b{color:var(--text)}
+.hero{background:#000;text-align:center}.hero img{display:block;width:100%;max-width:1040px;height:auto;margin:0 auto}
+h1{font-size:clamp(26px,5vw,40px);line-height:1.15;margin:28px 0 10px;text-wrap:balance}
+.tag{color:var(--muted);font-size:clamp(16px,2.4vw,19px);max-width:760px;margin:0 0 24px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.btn{display:inline-block;padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:600;border:1px solid var(--line);color:var(--text);background:var(--panel)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#0b0f08}.btn.primary:hover{background:var(--accent2)}
+.ver{color:var(--muted);font-size:14px}
+h2{font-size:24px;margin:56px 0 18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.card h3{margin:0 0 6px;font-size:17px;color:var(--accent)}.card p{margin:0;color:var(--muted);font-size:15px}
+ol{padding-left:22px}ol li{margin:6px 0}
+.note{color:var(--muted)}
+.warn{background:var(--warn);border:1px solid var(--warnline);border-radius:10px;padding:14px 18px;margin-top:16px}
+footer{margin:64px 0 32px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+</style>
+</head>
+<body>
+<div class="hero"><img src="shrek-2.jpg" alt="Shrek 2" width="1920" height="1080"></div>
+<main class="wrap">
+<nav><span>Shrek 2 PC</span><span class="lang"><b>English</b><a href="ru/">Русский</a><a href="https://github.com/kam0n4ik/Shrek-2-PC-Unified-Patch">GitHub</a></span></nav>
+<h1>Shrek 2 PC — Unified Patch</h1>
+<p class="tag">Widescreen, modern resolutions, crash fixes, intro skip and the developers’ hidden menu for the 2004 PC game. One installer, every file verified, rollback included.</p>
+<div class="btns"><a class="btn primary" href="https://github.com/kam0n4ik/Shrek-2-PC-Unified-Patch/releases/latest">Download 1.6</a><a class="btn" href="https://github.com/kam0n4ik/Shrek-2-PC-Unified-Patch">Source code</a><span class="ver">Version 1.6 · Windows · .NET Framework 4</span></div>
+<h2>What it does</h2>
+<div class="grid">
+<div class="card"><h3>Widescreen</h3><p>Up to 2560×1440 (720p, 768p, 900p, 1080p, 1152p, 1440p). Hor+ camera with a wider horizontal view. The HUD, menus and subtitles keep their 4:3 proportions, centred on the screen.</p></div>
+<div class="card"><h3>Window & VSync</h3><p>Fullscreen or windowed mode, VSync on/off. New video settings revert automatically after 15 seconds unless you confirm them.</p></div>
+<div class="card"><h3>Movies</h3><p>Bink movies keep their aspect ratio with side bars and use the 1024 versions where available. Fixes stripes, wrong colours and a decoder buffer overrun.</p></div>
+<div class="card"><h3>Crash fixes</h3><p>Fixes the crash when switching VSync to “Off” (broken bool bytecode in SHGame.u), Alt+F4 doing nothing in fullscreen, settings tabs going off screen, and array bound errors.</p></div>
+<div class="card"><h3>Intro skip</h3><p>No DreamWorks / Activision / KnowWonder logo movies: the game goes straight to the menu, and the storybook opens about 4× faster.</p></div>
+<div class="card"><h3>Developer menu</h3><p>An optional checkbox binds F9 (developer mode) and F10 (Dev Menu): load any map, use bookmark teleports, pick the story state.</p></div>
+</div>
+<h2>Installation</h2>
+<ol>
+<li>Close the game.</li>
+<li>Download <code>Shrek2VideoPatch-1.6.exe</code> and run it.</li>
+<li>Select the game’s <code>System</code> folder and click <b>Установить патч</b> (<i>Install patch</i>; the installer window is in Russian). If you want F9/F10, tick <b>Разблокировать меню разработчиков</b> (<i>Unlock developer menu</i>) first.</li>
+<li>In the game, open <i>Options → Video</i>, choose a resolution, apply and confirm.</li>
+</ol>
+<p class="note"><b>Восстановить оригинал</b> (<i>Restore original</i>) puts back every original file from <code>System\Shrek2VideoPatchBackup</code> and removes the key bindings. Every file is checked by SHA-256 before and after patching. If a file is unknown, nothing is changed.</p>
+<div class="warn">Built and tested on the <b>Russian retail PC release</b>. Other language versions will most likely be rejected without changes. No game files are included: the installer only contains binary diffs and applies them to your own copy.</div>
+<h2>Cut content found in the files</h2>
+<div class="grid">
+<div class="card"><h3>225 unused voiced lines</h3><p>Recorded and listed in <code>HpDialog.int</code>, but nothing in the game plays them. 149 are combat barks from peasants, knights, bandits, elves and Mongo (an abandoned chatter system). 76 are story lines.</p></div>
+<div class="card"><h3>Fairy Godmother commercial</h3><p>A TV spot for her potions (“limited edition”), plus a <b>FGM drive-thru</b> scene with Shrek and Donkey.</p></div>
+<div class="card"><h3>Lost tutorials and levels</h3><p>Donkey’s HUD tutorial (health, coins, double jump), a giant pumpkin and Peter the Pumpkin Eater, and Puss talking about fire vents, lasers, the dwarves’ caves and Jack and Jill’s hill.</p></div>
+<div class="card"><h3>Book_StoryBook.unr</h3><p>A map that nothing links to: the storybook, Shrek and 15 cameras. It looks like an early storybook prototype. Also 86 dialogue sounds with no text.</p></div>
+<div class="card"><h3>Debug tools</h3><p>Dev Menu, a UWindows debug bar (F2), and cheats: <code>FraserIsGod</code>, <code>AddCoins</code>, <code>AddPotions</code>, <code>FreeCam</code>, <code>GameSpeedUp</code>…</p></div>
+</div>
+<footer>Unofficial fan project. Not affiliated with DreamWorks Animation, Activision or KnowWonder. Shrek is a trademark of DreamWorks Animation L.L.C.</footer>
+</main>
+</body>
+</html>

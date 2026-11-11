@@ -1,0 +1,44 @@
+[
+  {
+    "path": "Tab_OptionsVideo.ccbRenderer",
+    "index": 11128,
+    "size": 59,
+    "unchanged_from_original": true
+  },
+  {
+    "path": "Tab_OptionsVideo.cCbResolution",
+    "index": 13535,
+    "size": 76,
+    "unchanged_from_original": true
+  },
+  {
+    "path": "Tab_OptionsVideo.cCbColorDepth",
+    "index": 13536,
+    "size": 60,
+    "unchanged_from_original": true
+  },
+  {
+    "path": "SHGUIComboBox",
+    "index": 37,
+    "size": 285,
+    "unchanged_from_original": true
+  },
+  {
+    "path": "SHGUIComboBox.InitComponent",
+    "index": 6717,
+    "size": 338,
+    "unchanged_from_original": true
+  },
+  {
+    "path": "SHGUIPage.InternalOnClick",
+    "index": 324,
+    "size": 48,
+    "unchanged_from_original": true
+  },
+  {
+    "path": "ShFEGUIPage.InternalOnClick",
+    "index": 7235,
+    "size": 596,
+    "unchanged_from_original": true
+  }
+]

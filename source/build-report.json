@@ -1,0 +1,50 @@
+{
+  "version": "1.3",
+  "final_files": [
+    {
+      "Name": "SHGame.u",
+      "OriginalHash": "4e23df53fec3ecf39fd0c96f3c4649398cd8da8bb9e5606e97d42a99632ae0e9",
+      "PatchedHash": "d34ade215dfb3103ce5cd60dc6b4e10fec9ccd2c1f202b862953304c941b271d"
+    },
+    {
+      "Name": "Engine.dll",
+      "OriginalHash": "977a1595276bc87836c03f489391b98b3a4b612ba50d5e243b560365ad397b85",
+      "PatchedHash": "a39a795e3dd26789d094273e2d2923baef7766e6143d5ff628f6f18b10bd0e58"
+    },
+    {
+      "Name": "HpMenu.int",
+      "OriginalHash": "765410d5ca71b8b7b6957dd9e0f2d0681c1bdaa925f653406ec89ad81b5dff15",
+      "PatchedHash": "2515c9726c9561eb77c55fd9e1fd6aa11677084ba481931ed816f12ca0186d19"
+    },
+    {
+      "Name": "WinDrv.dll",
+      "OriginalHash": "adc511b1ad39fbe94054be7b5f5f0838a3caf81f157c4a5b1b53bde5c7039cd3",
+      "PatchedHash": "b12705a7b3fcb3996c24f4844f5314054e9e4bab4accf4fc4efa9a75a6a0086a"
+    },
+    {
+      "Name": "KWGame.u",
+      "OriginalHash": "76a76aabdd6eb192ba5b3b6b9a0a34436774bc2e79211873f7763f7a6094f12e",
+      "PatchedHash": "97abe1c633d2e2c85bf8aebe1f0727edac6ce46974ead54b2ad5a14a6feca43f"
+    },
+    {
+      "Name": "GUI.dll",
+      "OriginalHash": "8a964d576f315ddc6a3bbcf4b86d44c36a7d86ae70a350f7bf78a75f38fe7e08",
+      "PatchedHash": "971aef9f8018ad2475d7a8cd4494ad59c6d8f7c658fda6f78b8aa9ffdac017b7"
+    },
+    {
+      "Name": "D3DDrv.dll",
+      "OriginalHash": "5ff643295ef507e399ccd4c886f9f36928f7ea43d815c58004176aa557706c61",
+      "PatchedHash": "2524499a9bf51795798e5d037b0cfe8f9d165d1820ac433262c9e39ebd7232d4"
+    }
+  ],
+  "video_1_1_stage": "Evidence/build-report.json",
+  "new_stages": [
+    "Widescreen/HUD/metadata.json",
+    "Widescreen/GUI/gui-aspect-evidence.json",
+    "Widescreen/Movies/movie-quality-evidence.json",
+    "Widescreen/Movies/movie-evidence.json",
+    "Widescreen/Movies/decoder-integration/decoder-contract.json",
+    "Widescreen/Movies/decoder-scaler-evidence.json"
+  ],
+  "preservation": "Widescreen/preservation.json"
+}

@@ -1,0 +1,100 @@
+{
+  "original_sha256": "4e23df53fec3ecf39fd0c96f3c4649398cd8da8bb9e5606e97d42a99632ae0e9",
+  "patched_sha256": "872fe63f115524b682373d340569870ec851e0091796c656c0509fdf9b24b4f3",
+  "changed_exports": [
+    {
+      "index": 3276,
+      "name": "Tab_Options.InitComponent",
+      "old_size": 895,
+      "new_size": 859
+    },
+    {
+      "index": 3511,
+      "name": "Tab_OptionsVideo.InitComponent",
+      "old_size": 2245,
+      "new_size": 2210
+    },
+    {
+      "index": 6772,
+      "name": "VideoChangeOK.InternalOnClick",
+      "old_size": 187,
+      "new_size": 369
+    },
+    {
+      "index": 7859,
+      "name": "Tab_OptionsVideo.TabOptions_OnLoadINI",
+      "old_size": 977,
+      "new_size": 613
+    },
+    {
+      "index": 7949,
+      "name": "VideoChangeOK.Execute",
+      "old_size": 336,
+      "new_size": 575
+    },
+    {
+      "index": 8061,
+      "name": "Tab_OptionsVideo.ApplyChanges",
+      "old_size": 233,
+      "new_size": 223
+    },
+    {
+      "index": 8093,
+      "name": "Tab_OptionsVideo.TabOptions_OnChange",
+      "old_size": 1536,
+      "new_size": 1214
+    },
+    {
+      "index": 8138,
+      "name": "Tab_OptionsVideo.CheckSupportedResolutions",
+      "old_size": 477,
+      "new_size": 297
+    },
+    {
+      "index": 12548,
+      "name": "VideoChangeOK.Timer",
+      "old_size": 236,
+      "new_size": 418
+    }
+  ],
+  "resolutions": [
+    [
+      640,
+      480
+    ],
+    [
+      800,
+      600
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1280,
+      720
+    ],
+    [
+      1366,
+      768
+    ],
+    [
+      1600,
+      900
+    ],
+    [
+      1920,
+      1080
+    ],
+    [
+      2048,
+      1152
+    ],
+    [
+      2560,
+      1440
+    ]
+  ],
+  "vsync": true,
+  "colour_bits": 32
+}

@@ -1,0 +1,650 @@
+{
+  "SHGame": {
+    "input": "<work>\\work\\widescreen\\hud\\built\\SHGame.u",
+    "output": "<work>\\work\\widescreen\\final\\System\\SHGame.u",
+    "old_sha256": "96d1d2977c577f5ca45c2edf6d403341c6c6e2a4e55c0e379a58df5f02fd6cf9",
+    "new_sha256": "d34ade215dfb3103ce5cd60dc6b4e10fec9ccd2c1f202b862953304c941b271d",
+    "functions": [
+      {
+        "path": "SHMovieManager.Trigger",
+        "index": 8494,
+        "old_offset": 874533,
+        "old_size": 685,
+        "new_size": 553,
+        "description": "Use the actual GETCURRENTRES viewport width; use the supplied 1024 movie variant when active width >=1024."
+      }
+    ],
+    "new_names": [],
+    "new_imports": [],
+    "new_exports": [],
+    "changed_exports": [
+      8494
+    ],
+    "conditions_from_redecoded_bytecode": [
+      [
+        154,
+        512,
+        "GETCURRENTRES"
+      ],
+      [
+        154,
+        640,
+        "GETCURRENTRES"
+      ],
+      [
+        152,
+        1024,
+        "GETCURRENTRES"
+      ]
+    ],
+    "selection_cases": [
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": true,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": true,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": true,
+        "saved_fullscreen_width": 800,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1024,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1280,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1366,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1600,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": true,
+        "saved_fullscreen_width": 2048,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": true,
+        "saved_fullscreen_width": 2560,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      }
+    ],
+    "source": "<work>\\work\\widescreen\\movies\\quality-source-sh\\SHMovieManager.uc",
+    "unchanged_exports_verified": 13541,
+    "runtime_game_verified": false
+  },
+  "KWGame": {
+    "input": "<work>\\work\\widescreen\\hud\\built\\KWGame.u",
+    "output": "<work>\\work\\widescreen\\final\\System\\KWGame.u",
+    "old_sha256": "bdf03cd668401a13d32a490ec9ae839db699525119a48379313f42e09823eccd",
+    "new_sha256": "97abe1c633d2e2c85bf8aebe1f0727edac6ce46974ead54b2ad5a14a6feca43f",
+    "functions": [
+      {
+        "path": "ResolutionBasedMovieTrigger.Activate",
+        "index": 5506,
+        "old_offset": 353860,
+        "old_size": 520,
+        "new_size": 388,
+        "description": "Use the actual GETCURRENTRES viewport width; use the supplied 1024 movie variant when active width >=1024."
+      }
+    ],
+    "new_names": [],
+    "new_imports": [],
+    "new_exports": [],
+    "changed_exports": [
+      5506
+    ],
+    "conditions_from_redecoded_bytecode": [
+      [
+        154,
+        512,
+        "GETCURRENTRES"
+      ],
+      [
+        154,
+        640,
+        "GETCURRENTRES"
+      ],
+      [
+        152,
+        1024,
+        "GETCURRENTRES"
+      ]
+    ],
+    "selection_cases": [
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": true,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 512,
+        "active_height": 384,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "512"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": true,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 640,
+        "active_height": 480,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "640"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": true,
+        "saved_fullscreen_width": 800,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 800,
+        "active_height": 600,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "default"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1024,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1024,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1280,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1280,
+        "active_height": 720,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1366,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1366,
+        "active_height": 768,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1600,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1600,
+        "active_height": 900,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": true,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 1920,
+        "active_height": 1080,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": true,
+        "saved_fullscreen_width": 2048,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2048,
+        "active_height": 1152,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": true,
+        "saved_fullscreen_width": 2560,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": false,
+        "saved_fullscreen_width": 512,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": false,
+        "saved_fullscreen_width": 1920,
+        "selected_variant": "1024"
+      },
+      {
+        "active_width": 2560,
+        "active_height": 1440,
+        "fullscreen": false,
+        "saved_fullscreen_width": 640,
+        "selected_variant": "1024"
+      }
+    ],
+    "source": "<work>\\work\\widescreen\\movies\\quality-source-kw\\ResolutionBasedMovieTrigger.uc",
+    "unchanged_exports_verified": 8241,
+    "runtime_game_verified": false
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "source": "E:\\Shrek 2\\System\\Engine.dll",
+  "original_sha256": "977a1595276bc87836c03f489391b98b3a4b612ba50d5e243b560365ad397b85",
+  "patched_sha256": "a39a795e3dd26789d094273e2d2923baef7766e6143d5ff628f6f18b10bd0e58",
+  "patch_site_va": "0x10497f73",
+  "code_cave_va": "0x1049a700",
+  "code_cave_bytes": 61,
+  "before": [
+    "10497F73  fdivr    dword ptr [esp + 0x64]",
+    "10497F77  lea      ecx, [esp + 0x88]",
+    "10497F7E  fstp     dword ptr [esp]",
+    "10497F81  push     0x3f800000"
+  ],
+  "after_site": [
+    "10497F73  jmp      0x1049a700",
+    "10497F78  nop      ",
+    "10497F79  nop      ",
+    "10497F7A  nop      ",
+    "10497F7B  nop      ",
+    "10497F7C  nop      ",
+    "10497F7D  nop      ",
+    "10497F7E  nop      ",
+    "10497F7F  nop      ",
+    "10497F80  nop      ",
+    "10497F81  nop      ",
+    "10497F82  nop      ",
+    "10497F83  nop      ",
+    "10497F84  nop      ",
+    "10497F85  nop      "
+  ],
+  "after_cave": [
+    "1049A700  fdivr    dword ptr [esp + 0x64]",
+    "1049A704  mov      dword ptr [esp], 0x3faaaaab",
+    "1049A70B  fld      dword ptr [esp]",
+    "1049A70E  fcompi   st(1)",
+    "1049A710  jae      0x1049a729",
+    "1049A716  fdivr    dword ptr [esp]",
+    "1049A719  lea      ecx, [esp + 0x88]",
+    "1049A720  push     ecx",
+    "1049A721  fstp     dword ptr [esp]",
+    "1049A724  jmp      0x10497f86",
+    "1049A729  lea      ecx, [esp + 0x88]",
+    "1049A730  fstp     dword ptr [esp]",
+    "1049A733  push     0x3f800000",
+    "1049A738  jmp      0x10497f86"
+  ],
+  "unicorn_emulation": [
+    {
+      "width": 640,
+      "height": 480,
+      "projection_x_multiplier": 1.0,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "projection_x_multiplier": 1.0,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "projection_x_multiplier": 1.0,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 512,
+      "height": 384,
+      "projection_x_multiplier": 1.0,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "projection_x_multiplier": 0.75,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "projection_x_multiplier": 0.7496339678764343,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "projection_x_multiplier": 0.75,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "projection_x_multiplier": 0.75,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "projection_x_multiplier": 0.75,
+      "projection_y_multiplier": 1.3333333730697632
+    },
+    {
+      "width": 1280,
+      "height": 1024,
+      "projection_x_multiplier": 1.0,
+      "projection_y_multiplier": 1.25
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "projection_x_multiplier": 1.0,
+      "projection_y_multiplier": 0.75
+    }
+  ],
+  "runtime_gameplay_verified": false
+}

@@ -1,0 +1,833 @@
+{
+  "original_sha256": "8a964d576f315ddc6a3bbcf4b86d44c36a7d86ae70a350f7bf78a75f38fe7e08",
+  "patched_sha256": "971aef9f8018ad2475d7a8cd4494ad59c6d8f7c658fda6f78b8aa9ffdac017b7",
+  "width_helper": 268447744,
+  "left_helper": 268447808,
+  "font_helper": 268447856,
+  "payload_bytes": 160,
+  "spans": [
+    [
+      268543996,
+      6
+    ],
+    [
+      268544702,
+      9
+    ],
+    [
+      268540875,
+      5
+    ],
+    [
+      268447744,
+      160
+    ]
+  ],
+  "original_cave_reference_scan": {
+    "absolute_pointer_candidates": [],
+    "direct_incoming_branches": [],
+    "scope": "Raw pointer scan and linear executable-section direct-branch scan; arbitrary computed indirect references are not proven absent."
+  },
+  "file_spans": [
+    {
+      "offset": 108540,
+      "length": 6
+    },
+    {
+      "offset": 109246,
+      "length": 9
+    },
+    {
+      "offset": 105419,
+      "length": 5
+    },
+    {
+      "offset": 12288,
+      "length": 160
+    }
+  ],
+  "geometry_emulation": [
+    {
+      "width": 640,
+      "height": 480,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        160.0,
+        96.0,
+        288.0,
+        144.0
+      ],
+      "effective_width": 640,
+      "offset_x": 0.0
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        160.0,
+        96.0,
+        288.0,
+        144.0
+      ],
+      "effective_width": 640,
+      "offset_x": 0.0
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        200.0,
+        120.0,
+        360.0,
+        180.0
+      ],
+      "effective_width": 800,
+      "offset_x": 0.0
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        200.0,
+        120.0,
+        360.0,
+        180.0
+      ],
+      "effective_width": 800,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        256.0,
+        153.60000610351562,
+        460.79998779296875,
+        230.40000915527344
+      ],
+      "effective_width": 1024,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        256.0,
+        153.60000610351562,
+        460.79998779296875,
+        230.40000915527344
+      ],
+      "effective_width": 1024,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        400.0,
+        144.0,
+        592.0,
+        216.0
+      ],
+      "effective_width": 960.0,
+      "offset_x": 160.0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        400.0,
+        144.0,
+        592.0,
+        216.0
+      ],
+      "effective_width": 960.0,
+      "offset_x": 160.0
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        427.0,
+        153.60000610351562,
+        631.7999877929688,
+        230.40000915527344
+      ],
+      "effective_width": 1024.0,
+      "offset_x": 171.0
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        427.0,
+        153.60000610351562,
+        631.7999877929688,
+        230.40000915527344
+      ],
+      "effective_width": 1024.0,
+      "offset_x": 171.0
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        500.0,
+        180.0,
+        740.0,
+        270.0
+      ],
+      "effective_width": 1200.0,
+      "offset_x": 200.0
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        500.0,
+        180.0,
+        740.0,
+        270.0
+      ],
+      "effective_width": 1200.0,
+      "offset_x": 200.0
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        600.0,
+        216.0,
+        888.0,
+        324.0
+      ],
+      "effective_width": 1440.0,
+      "offset_x": 240.0
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        600.0,
+        216.0,
+        888.0,
+        324.0
+      ],
+      "effective_width": 1440.0,
+      "offset_x": 240.0
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        800.0,
+        288.0,
+        1184.0,
+        432.0
+      ],
+      "effective_width": 1920.0,
+      "offset_x": 320.0
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        800.0,
+        288.0,
+        1184.0,
+        432.0
+      ],
+      "effective_width": 1920.0,
+      "offset_x": 320.0
+    },
+    {
+      "width": 1280,
+      "height": 1024,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        320.0,
+        204.8000030517578,
+        576.0,
+        307.20001220703125
+      ],
+      "effective_width": 1280,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1280,
+      "height": 1024,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        320.0,
+        204.8000030517578,
+        576.0,
+        307.20001220703125
+      ],
+      "effective_width": 1280,
+      "offset_x": 0.0
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "nested_parent": false,
+      "load_base": "0x10000000",
+      "bounds": [
+        150.0,
+        160.0,
+        270.0,
+        240.0
+      ],
+      "effective_width": 600,
+      "offset_x": 0.0
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "nested_parent": true,
+      "load_base": "0x10000000",
+      "bounds": [
+        150.0,
+        160.0,
+        270.0,
+        240.0
+      ],
+      "effective_width": 600,
+      "offset_x": 0.0
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        160.0,
+        96.0,
+        288.0,
+        144.0
+      ],
+      "effective_width": 640,
+      "offset_x": 0.0
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        160.0,
+        96.0,
+        288.0,
+        144.0
+      ],
+      "effective_width": 640,
+      "offset_x": 0.0
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        200.0,
+        120.0,
+        360.0,
+        180.0
+      ],
+      "effective_width": 800,
+      "offset_x": 0.0
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        200.0,
+        120.0,
+        360.0,
+        180.0
+      ],
+      "effective_width": 800,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        256.0,
+        153.60000610351562,
+        460.79998779296875,
+        230.40000915527344
+      ],
+      "effective_width": 1024,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        256.0,
+        153.60000610351562,
+        460.79998779296875,
+        230.40000915527344
+      ],
+      "effective_width": 1024,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        400.0,
+        144.0,
+        592.0,
+        216.0
+      ],
+      "effective_width": 960.0,
+      "offset_x": 160.0
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        400.0,
+        144.0,
+        592.0,
+        216.0
+      ],
+      "effective_width": 960.0,
+      "offset_x": 160.0
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        427.0,
+        153.60000610351562,
+        631.7999877929688,
+        230.40000915527344
+      ],
+      "effective_width": 1024.0,
+      "offset_x": 171.0
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        427.0,
+        153.60000610351562,
+        631.7999877929688,
+        230.40000915527344
+      ],
+      "effective_width": 1024.0,
+      "offset_x": 171.0
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        500.0,
+        180.0,
+        740.0,
+        270.0
+      ],
+      "effective_width": 1200.0,
+      "offset_x": 200.0
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        500.0,
+        180.0,
+        740.0,
+        270.0
+      ],
+      "effective_width": 1200.0,
+      "offset_x": 200.0
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        600.0,
+        216.0,
+        888.0,
+        324.0
+      ],
+      "effective_width": 1440.0,
+      "offset_x": 240.0
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        600.0,
+        216.0,
+        888.0,
+        324.0
+      ],
+      "effective_width": 1440.0,
+      "offset_x": 240.0
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        800.0,
+        288.0,
+        1184.0,
+        432.0
+      ],
+      "effective_width": 1920.0,
+      "offset_x": 320.0
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        800.0,
+        288.0,
+        1184.0,
+        432.0
+      ],
+      "effective_width": 1920.0,
+      "offset_x": 320.0
+    },
+    {
+      "width": 1280,
+      "height": 1024,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        320.0,
+        204.8000030517578,
+        576.0,
+        307.20001220703125
+      ],
+      "effective_width": 1280,
+      "offset_x": 0.0
+    },
+    {
+      "width": 1280,
+      "height": 1024,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        320.0,
+        204.8000030517578,
+        576.0,
+        307.20001220703125
+      ],
+      "effective_width": 1280,
+      "offset_x": 0.0
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "nested_parent": false,
+      "load_base": "0x20000000",
+      "bounds": [
+        150.0,
+        160.0,
+        270.0,
+        240.0
+      ],
+      "effective_width": 600,
+      "offset_x": 0.0
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "nested_parent": true,
+      "load_base": "0x20000000",
+      "bounds": [
+        150.0,
+        160.0,
+        270.0,
+        240.0
+      ],
+      "effective_width": 600,
+      "offset_x": 0.0
+    }
+  ],
+  "font_emulation": [
+    {
+      "width": 640,
+      "height": 480,
+      "load_base": "0x10000000",
+      "font_resolution": 640,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "load_base": "0x10000000",
+      "font_resolution": 800,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "load_base": "0x10000000",
+      "font_resolution": 1024,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "load_base": "0x10000000",
+      "font_resolution": 960,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "load_base": "0x10000000",
+      "font_resolution": 1024,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "load_base": "0x10000000",
+      "font_resolution": 1200,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "load_base": "0x10000000",
+      "font_resolution": 1440,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "load_base": "0x10000000",
+      "font_resolution": 1920,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1280,
+      "height": 1024,
+      "load_base": "0x10000000",
+      "font_resolution": 1280,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "load_base": "0x10000000",
+      "font_resolution": 600,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 640,
+      "height": 480,
+      "load_base": "0x20000000",
+      "font_resolution": 640,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 800,
+      "height": 600,
+      "load_base": "0x20000000",
+      "font_resolution": 800,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "load_base": "0x20000000",
+      "font_resolution": 1024,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "load_base": "0x20000000",
+      "font_resolution": 960,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "load_base": "0x20000000",
+      "font_resolution": 1024,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "load_base": "0x20000000",
+      "font_resolution": 1200,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "load_base": "0x20000000",
+      "font_resolution": 1440,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "load_base": "0x20000000",
+      "font_resolution": 1920,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 1280,
+      "height": 1024,
+      "load_base": "0x20000000",
+      "font_resolution": 1280,
+      "canvas_unchanged": true
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "load_base": "0x20000000",
+      "font_resolution": 600,
+      "canvas_unchanged": true
+    }
+  ],
+  "helpers": [
+    "10003000  pushfd   ",
+    "10003001  push     eax",
+    "10003002  push     ecx",
+    "10003003  mov      eax, dword ptr [edx + 0x8c]",
+    "10003009  mov      ecx, dword ptr [edx + 0x90]",
+    "1000300F  lea      eax, [eax + eax*2]",
+    "10003012  shl      ecx, 2",
+    "10003015  cmp      eax, ecx",
+    "10003017  jbe      0x1000302c",
+    "10003019  push     ecx",
+    "1000301A  fild     dword ptr [esp]",
+    "1000301D  mov      dword ptr [esp], 3",
+    "10003024  fidiv    dword ptr [esp]",
+    "10003027  add      esp, 4",
+    "1000302A  jmp      0x10003032",
+    "1000302C  fild     dword ptr [edx + 0x8c]",
+    "10003032  pop      ecx",
+    "10003033  pop      eax",
+    "10003034  popfd    ",
+    "10003035  ret      ",
+    "10003036  int3     ",
+    "10003037  int3     ",
+    "10003038  int3     ",
+    "10003039  int3     ",
+    "1000303A  int3     ",
+    "1000303B  int3     ",
+    "1000303C  int3     ",
+    "1000303D  int3     ",
+    "1000303E  int3     ",
+    "1000303F  int3     ",
+    "10003040  pushfd   ",
+    "10003041  call     0x10003000",
+    "10003046  fld      st(0)",
+    "10003048  fmul     dword ptr [esi + 0x74]",
+    "1000304B  fxch     st(1)",
+    "1000304D  fchs     ",
+    "1000304F  fiadd    dword ptr [edx + 0x8c]",
+    "10003055  push     2",
+    "10003057  fidiv    dword ptr [esp]",
+    "1000305A  add      esp, 4",
+    "1000305D  faddp    st(1)",
+    "1000305F  popfd    ",
+    "10003060  jmp      0x1001aac7",
+    "10003065  int3     ",
+    "10003066  int3     ",
+    "10003067  int3     ",
+    "10003068  int3     ",
+    "10003069  int3     ",
+    "1000306A  int3     ",
+    "1000306B  int3     ",
+    "1000306C  int3     ",
+    "1000306D  int3     ",
+    "1000306E  int3     ",
+    "1000306F  int3     ",
+    "10003070  pushfd   ",
+    "10003071  push     eax",
+    "10003072  push     ecx",
+    "10003073  push     edx",
+    "10003074  mov      eax, dword ptr [ebp - 0x14]",
+    "10003077  test     eax, eax",
+    "10003079  je       0x10003092",
+    "1000307B  mov      eax, dword ptr [eax + 0x68]",
+    "1000307E  shl      eax, 2",
+    "10003081  xor      edx, edx",
+    "10003083  mov      ecx, 3",
+    "10003088  div      ecx",
+    "1000308A  cmp      eax, dword ptr [ebp - 0x18]",
+    "1000308D  jge      0x10003092",
+    "1000308F  mov      dword ptr [ebp - 0x18], eax",
+    "10003092  pop      edx",
+    "10003093  pop      ecx",
+    "10003094  pop      eax",
+    "10003095  popfd    ",
+    "10003096  mov      al, byte ptr [ebx + 0x3c]",
+    "10003099  xor      esi, esi",
+    "1000309B  jmp      0x10019bd0"
+  ],
+  "runtime_menu_verified": false,
+  "scope": "GUI component geometry, shared hit-test Bounds, and GUI font resolution selection only. World viewport, Canvas dimensions, mouse coordinates, absolute unbound pixel coordinates, and height math are unchanged."
+}

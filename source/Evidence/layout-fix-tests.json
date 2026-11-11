@@ -1,0 +1,55 @@
+{
+  "result": "passed",
+  "actual_bytecode_cases": [
+    {
+      "active_width": 512,
+      "layout_width": 512,
+      "left_normalized": 0.283203125
+    },
+    {
+      "active_width": 640,
+      "layout_width": 640,
+      "left_normalized": 0.374
+    },
+    {
+      "active_width": 800,
+      "layout_width": 800,
+      "left_normalized": 0.3425
+    },
+    {
+      "active_width": 1024,
+      "layout_width": 1024,
+      "left_normalized": 0.2984
+    },
+    {
+      "active_width": 1280,
+      "layout_width": 1024,
+      "left_normalized": 0.2984
+    },
+    {
+      "active_width": 1366,
+      "layout_width": 1024,
+      "left_normalized": 0.2984
+    },
+    {
+      "active_width": 1600,
+      "layout_width": 1024,
+      "left_normalized": 0.2984
+    },
+    {
+      "active_width": 1920,
+      "layout_width": 1024,
+      "left_normalized": 0.2984
+    },
+    {
+      "active_width": 2048,
+      "layout_width": 1024,
+      "left_normalized": 0.2984
+    },
+    {
+      "active_width": 2560,
+      "layout_width": 1024,
+      "left_normalized": 0.2984
+    }
+  ]
+}

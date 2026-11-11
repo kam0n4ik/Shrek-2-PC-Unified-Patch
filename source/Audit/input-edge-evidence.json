@@ -1,0 +1,75 @@
+{
+  "sources": {
+    "Engine.dll": "a39a795e3dd26789d094273e2d2923baef7766e6143d5ff628f6f18b10bd0e58",
+    "Core.dll": "88900e10c884dde432e0c7216a81f928a608eabdae4194d7eeaaa2cfaf58884e"
+  },
+  "count_native_disassembly": [
+    "1042AB91  push     0x10743734",
+    "1042AB96  push     eax",
+    "1042AB97  call     edi",
+    "1042AB99  add      esp, 8",
+    "1042AB9C  cmp      eax, ebx",
+    "1042AB9E  je       0x1042ac06",
+    "1042ABA0  mov      ecx, dword ptr [esi + 0xe78]",
+    "1042ABA6  cmp      dword ptr [ecx + 0x34], ebx",
+    "1042ABA9  je       0x1042abee",
+    "1042ABAB  push     ebx",
+    "1042ABAC  push     0x100",
+    "1042ABB1  lea      edx, [ebp - 0x228]",
+    "1042ABB7  push     edx",
+    "1042ABB8  lea      eax, [ebp + 8]",
+    "1042ABBB  push     eax",
+    "1042ABBC  call     dword ptr [0x10964640]",
+    "1042ABC2  add      esp, 0x10",
+    "1042ABC5  cmp      eax, ebx",
+    "1042ABC7  je       0x1042abee",
+    "1042ABC9  mov      edx, dword ptr [esi - 0x2c]",
+    "1042ABCC  lea      eax, [ebp - 0x228]",
+    "1042ABD2  push     eax",
+    "1042ABD3  mov      eax, dword ptr [esi + 0xe78]",
+    "1042ABD9  mov      eax, dword ptr [eax + 0x34]",
+    "1042ABDC  lea      ecx, [esi - 0x2c]",
+    "1042ABDF  push     eax",
+    "1042ABE0  call     dword ptr [edx + 0x94]",
+    "1042ABE6  cmp      eax, ebx",
+    "1042ABE8  je       0x1042abee",
+    "1042ABEA  inc      byte ptr [eax]"
+  ],
+  "float_divide_arithmetic_disassembly": [
+    "10136E58  fld      dword ptr [esp + 4]",
+    "10136E5C  mov      edx, dword ptr [esp + 0x10]",
+    "10136E60  fdiv     dword ptr [esp + 0xc]",
+    "10136E64  pop      esi",
+    "10136E65  fstp     dword ptr [edx]",
+    "10136E67  pop      ecx"
+  ],
+  "counter_emulation": [
+    {
+      "input_axis_records": 1,
+      "native_byte_count": 1
+    },
+    {
+      "input_axis_records": 255,
+      "native_byte_count": 255
+    },
+    {
+      "input_axis_records": 256,
+      "native_byte_count": 0
+    },
+    {
+      "input_axis_records": 257,
+      "native_byte_count": 1
+    },
+    {
+      "input_axis_records": 512,
+      "native_byte_count": 0
+    }
+  ],
+  "native_float_divide_zero_with_masked_x87_exceptions": "positive infinity",
+  "smooth_mode_2_release_weights_after_explicit_int_cast": [
+    0,
+    0,
+    0
+  ],
+  "scope": "Arithmetic and native increment are emulated, not a running game or real mouse. Hardware sampling/buffer reachability of 256 records in a frame is not established."
+}

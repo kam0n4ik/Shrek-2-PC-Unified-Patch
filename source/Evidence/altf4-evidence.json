@@ -1,0 +1,38 @@
+{
+  "original_sha256": "adc511b1ad39fbe94054be7b5f5f0838a3caf81f157c4a5b1b53bde5c7039cd3",
+  "patched_sha256": "b12705a7b3fcb3996c24f4844f5314054e9e4bab4accf4fc4efa9a75a6a0086a",
+  "site_va": "0x11108dcc",
+  "site_offset": 36300,
+  "cave_va": "0x11101500",
+  "cave_offset": 5376,
+  "cave_length": 45,
+  "original_hook_bytes": "39 1a 89 5d fc",
+  "new_hook_bytes": "e9 2f 87 ff ff",
+  "cave_assembly": [
+    "11101500  cmp dword ptr [ebp + 8], 0x104",
+    "11101507  jne 0x11101523",
+    "11101509  cmp dword ptr [ebp + 0xc], 0x73",
+    "1110150D  jne 0x11101523",
+    "1110150F  test dword ptr [ebp + 0x10], 0x20000000",
+    "11101516  je 0x11101523",
+    "11101518  mov eax, dword ptr [ebp + 8]",
+    "1110151B  mov edx, dword ptr [ebp - 0x14]",
+    "1110151E  jmp 0x1110a4c2",
+    "11101523  cmp dword ptr [edx], ebx",
+    "11101525  mov dword ptr [ebp - 4], ebx",
+    "11101528  jmp 0x11108dd1"
+  ],
+  "emulation": [
+    {
+      "load_base": "0x11100000",
+      "message_key_alt_editor_combinations_passed": 2048
+    },
+    {
+      "load_base": "0x22100000",
+      "message_key_alt_editor_combinations_passed": 2048
+    }
+  ],
+  "actual_keyboard_runtime_test": false,
+  "cause": "WM_KEYDOWN (0x100) and WM_SYSKEYDOWN (0x104) share handler 0x11108DC6; in non-editor mode it consumes both and returns without DefWindowProc. Only Alt+Enter has a special path. VK_F4 has no special case.",
+  "fix": "At the shared handler, forward WM_SYSKEYDOWN + VK_F4 + ALT-context-bit to the existing ANSI/Unicode DefWindowProc path; all other keys execute the original instructions."
+}

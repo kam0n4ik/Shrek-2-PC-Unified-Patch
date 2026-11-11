@@ -1,0 +1,229 @@
+{
+  "original_file": "<work>\\work\\original\\System\\KWGame.u",
+  "patched_file": "<work>\\work\\audit\\gameplay-fix\\KWGame.u",
+  "original_sha256": "76a76aabdd6eb192ba5b3b6b9a0a34436774bc2e79211873f7763f7a6094f12e",
+  "patched_sha256": "58aea9b412f044c4ee30daff975822fe192866f73e4f6cb6f8c06674e9800b89",
+  "original_size": 1656166,
+  "patched_size": 1656166,
+  "changed_functions": [
+    "ExtraCostTrigger.Trigger",
+    "KWInterestManager.AddToList",
+    "KWInterestManager.AddToSecondaryList",
+    "KWInterestManager.GetInterestActor",
+    "KWInterestManager.LogInterestActors",
+    "KWInterestManager.LogRadiusActors",
+    "KWInterestManager.SetRadiusActors",
+    "KWPatrolSetup.LogAndVerifyRoute",
+    "KWPawn.IsALandingAnim"
+  ],
+  "fixed_array_checks": 9,
+  "dynamic_array_checks": 3,
+  "changes": [
+    {
+      "function": "KWPawn.IsALandingAnim",
+      "export_index": 5255,
+      "file_offset": 307871,
+      "old_serial_size": 73,
+      "new_serial_size": 71,
+      "old_script_memory_size": 56,
+      "new_script_memory_size": 54,
+      "reason": "Check every landing animation; return false after the loop."
+    },
+    {
+      "function": "KWInterestManager.AddToList",
+      "export_index": 5435,
+      "file_offset": 338778,
+      "script_memory_position": 10,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.AddToSecondaryList",
+      "export_index": 5426,
+      "file_offset": 337379,
+      "script_memory_position": 10,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.GetInterestActor",
+      "export_index": 5519,
+      "file_offset": 356379,
+      "script_memory_position": 24,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.LogInterestActors",
+      "export_index": 5655,
+      "file_offset": 399350,
+      "script_memory_position": 10,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.LogInterestActors",
+      "export_index": 5655,
+      "file_offset": 399484,
+      "script_memory_position": 172,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.LogRadiusActors",
+      "export_index": 5405,
+      "file_offset": 333438,
+      "script_memory_position": 10,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.SetRadiusActors",
+      "export_index": 5675,
+      "file_offset": 409312,
+      "script_memory_position": 10,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.SetRadiusActors",
+      "export_index": 5675,
+      "file_offset": 409346,
+      "script_memory_position": 57,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "KWInterestManager.SetRadiusActors",
+      "export_index": 5675,
+      "file_offset": 409486,
+      "script_memory_position": 262,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use i < 254 for fixed array[254], avoiding invalid index 254."
+    },
+    {
+      "function": "ExtraCostTrigger.Trigger",
+      "export_index": 5489,
+      "file_offset": 349504,
+      "script_memory_position": 10,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use index < dynamic array Length, excluding the invalid Length index."
+    },
+    {
+      "function": "ExtraCostTrigger.Trigger",
+      "export_index": 5489,
+      "file_offset": 349521,
+      "script_memory_position": 33,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use index < dynamic array Length, excluding the invalid Length index."
+    },
+    {
+      "function": "KWPatrolSetup.LogAndVerifyRoute",
+      "export_index": 5560,
+      "file_offset": 368189,
+      "script_memory_position": 10,
+      "old_byte": "98",
+      "new_byte": "96",
+      "reason": "Use index < dynamic array Length, excluding the invalid Length index."
+    }
+  ],
+  "diff_hunks": [
+    {
+      "offset": 307889,
+      "old": "38",
+      "new": "36"
+    },
+    {
+      "offset": 307899,
+      "old": "36",
+      "new": "34"
+    },
+    {
+      "offset": 307925,
+      "old": "0428a500591516060700040b",
+      "new": "a50059151606070004280000"
+    },
+    {
+      "offset": 307938,
+      "old": "00",
+      "new": "02"
+    },
+    {
+      "offset": 333438,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 337379,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 338778,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 349504,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 349521,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 356379,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 368189,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 399350,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 399484,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 409312,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 409346,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 409486,
+      "old": "98",
+      "new": "96"
+    },
+    {
+      "offset": 1605836,
+      "old": "49",
+      "new": "47"
+    }
+  ],
+  "unmodified_export_payloads_verified": true
+}

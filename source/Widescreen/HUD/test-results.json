@@ -1,0 +1,27 @@
+{
+  "result": "passed",
+  "kw_scenarios": 144,
+  "sh_scenarios": 81,
+  "preservation": {
+    "KWGame": {
+      "unchanged_original_exports": 8232,
+      "original_object_indices_preserved": true,
+      "original_import_indices_preserved": true
+    },
+    "SHGame": {
+      "unchanged_original_exports": 13539,
+      "original_object_indices_preserved": true,
+      "original_import_indices_preserved": true
+    }
+  },
+  "checks": [
+    "Actual patched bytecode executed",
+    "All branch targets and context skip sizes valid",
+    "HUD clipping, safe area, uniform scale, hidden/cutscene paths",
+    "Exact Canvas restoration before physical fullscreen rendering",
+    "Subtitle/FF optional branches",
+    "Loading/saving badge aspect and full black cover",
+    "Hourglass cover states and aspect",
+    "Slot-machine physical unprojection anchor"
+  ]
+}

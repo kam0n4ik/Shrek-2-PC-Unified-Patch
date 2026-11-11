@@ -1,0 +1,18 @@
+{
+  "version": "1.3",
+  "status": "passed",
+  "checks": [
+    "fresh-check",
+    "fresh-install",
+    "repeat-install",
+    "restore",
+    "upgrade-1.2-check",
+    "upgrade-1.2",
+    "upgraded-repeat",
+    "upgraded-restore",
+    "unsupported-input-rejected",
+    "rejected-input-changes-nothing"
+  ],
+  "files": 7,
+  "all_original_backups_preserved": true
+}

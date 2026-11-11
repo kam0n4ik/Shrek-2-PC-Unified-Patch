@@ -1,0 +1,90 @@
+{
+  "result": "passed",
+  "landing_cases": [
+    {
+      "animation": "land_stand",
+      "result": true,
+      "visited": [
+        0
+      ]
+    },
+    {
+      "animation": "land_run",
+      "result": true,
+      "visited": [
+        0,
+        1
+      ]
+    },
+    {
+      "animation": "land_2",
+      "result": true,
+      "visited": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "animation": "land_3",
+      "result": true,
+      "visited": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "animation": "other",
+      "result": false,
+      "visited": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "animation": "LAND_RUN",
+      "result": true,
+      "visited": [
+        0,
+        1
+      ]
+    }
+  ],
+  "fixed_array_loop_checks": 9,
+  "dynamic_array_loop_checks": [
+    {
+      "function": "ExtraCostTrigger.Trigger",
+      "memory_position": 10,
+      "cases": 6
+    },
+    {
+      "function": "ExtraCostTrigger.Trigger",
+      "memory_position": 33,
+      "cases": 6
+    },
+    {
+      "function": "KWPatrolSetup.LogAndVerifyRoute",
+      "memory_position": 10,
+      "cases": 6
+    }
+  ],
+  "boundary_cases_per_loop": [
+    0,
+    253,
+    254,
+    255
+  ],
+  "branch_targets_and_context_skips_valid": true,
+  "package_sha256": "58aea9b412f044c4ee30daff975822fe192866f73e4f6cb6f8c06674e9800b89",
+  "limitations": "Engine/native rendering and runtime gameplay are not executed.",
+  "original_regression_reproduced": {
+    "land_run_result": false,
+    "visited": [
+      0
+    ]
+  }
+}

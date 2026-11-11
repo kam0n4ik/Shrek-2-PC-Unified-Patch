@@ -1,0 +1,1245 @@
+{
+  "classes_read": 2002,
+  "function_declarations_read": 8315,
+  "inclusive_dynamic_length_candidates": [
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\ExtraCostTrigger.uc",
+      "line": 20,
+      "code": "if(__NFUN_152__(i, AffectedPathInfo.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\ExtraCostTrigger.uc",
+      "line": 26,
+      "code": "if(__NFUN_152__(X, AffectedPathInfo[i].AffectedPaths.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWInterestManager.uc",
+      "line": 189,
+      "code": "if(__NFUN_152__(i, InterestActorTypes.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWInterestManager.uc",
+      "line": 200,
+      "code": "if(__NFUN_152__(i, SecondaryInterestActorTypes.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWInterestManager.uc",
+      "line": 285,
+      "code": "if(__NFUN_152__(i, InterestActorTypes.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWInterestManager.uc",
+      "line": 300,
+      "code": "if(__NFUN_152__(i, SecondaryInterestActorTypes.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWInterestManager.uc",
+      "line": 323,
+      "code": "if(__NFUN_152__(i, InterestActorTypes.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWInterestManager.uc",
+      "line": 338,
+      "code": "if(__NFUN_152__(i, SecondaryInterestActorTypes.Length))"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPatrolSetup.uc",
+      "line": 387,
+      "code": "if(__NFUN_152__(i, SetupPatrolInfo.Length))"
+    }
+  ],
+  "constant_state_unresolved_in_self_or_ancestors": [
+    {
+      "class": "BiterFish",
+      "file": "<work>\\work\\audit\\source\\AmbientCreatures\\BiterFish.uc",
+      "line": 58,
+      "state": "Swimming",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Actor",
+      "file": "<work>\\work\\audit\\source\\Engine\\Actor.uc",
+      "line": 2030,
+      "state": "Auto",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Actor",
+      "file": "<work>\\work\\audit\\source\\Engine\\Actor.uc",
+      "line": 2623,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Console",
+      "file": "<work>\\work\\audit\\source\\Engine\\Console.uc",
+      "line": 80,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Console",
+      "file": "<work>\\work\\audit\\source\\Engine\\Console.uc",
+      "line": 129,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Console",
+      "file": "<work>\\work\\audit\\source\\Engine\\Console.uc",
+      "line": 171,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Console",
+      "file": "<work>\\work\\audit\\source\\Engine\\Console.uc",
+      "line": 175,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Inventory",
+      "file": "<work>\\work\\audit\\source\\Engine\\Inventory.uc",
+      "line": 156,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Inventory",
+      "file": "<work>\\work\\audit\\source\\Engine\\Inventory.uc",
+      "line": 208,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 119,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 710,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 745,
+      "state": "StandOpenTimed",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 786,
+      "state": "BumpOpenTimed",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 815,
+      "state": "TriggerOpenTimed",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 847,
+      "state": "TriggerToggle",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 851,
+      "state": "TriggerToggle",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 894,
+      "state": "TriggerControl",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 908,
+      "state": "TriggerControl",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 934,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 953,
+      "state": "TriggerPound",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 966,
+      "state": "TriggerPound",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 1005,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 1038,
+      "state": "BumpButton",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 1052,
+      "state": "BumpButton",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Mover",
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 1071,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Security",
+      "file": "<work>\\work\\audit\\source\\Engine\\Security.uc",
+      "line": 32,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SwingingDoor",
+      "file": "<work>\\work\\audit\\source\\Engine\\SwingingDoor.uc",
+      "line": 149,
+      "state": "SwingDoor",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SwingingDoor",
+      "file": "<work>\\work\\audit\\source\\Engine\\SwingingDoor.uc",
+      "line": 156,
+      "state": "SwingDoor",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SwingingDoor",
+      "file": "<work>\\work\\audit\\source\\Engine\\SwingingDoor.uc",
+      "line": 214,
+      "state": "SwingDoor",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SwingingDoor",
+      "file": "<work>\\work\\audit\\source\\Engine\\SwingingDoor.uc",
+      "line": 242,
+      "state": "SwingDoor",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Trigger",
+      "file": "<work>\\work\\audit\\source\\Engine\\Trigger.uc",
+      "line": 221,
+      "state": "NormalTrigger",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "WarpZoneInfo",
+      "file": "<work>\\work\\audit\\source\\Engine\\WarpZoneInfo.uc",
+      "line": 237,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Weapon",
+      "file": "<work>\\work\\audit\\source\\Engine\\Weapon.uc",
+      "line": 283,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Weapon",
+      "file": "<work>\\work\\audit\\source\\Engine\\Weapon.uc",
+      "line": 892,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Weapon",
+      "file": "<work>\\work\\audit\\source\\Engine\\Weapon.uc",
+      "line": 917,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Weapon",
+      "file": "<work>\\work\\audit\\source\\Engine\\Weapon.uc",
+      "line": 925,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Weapon",
+      "file": "<work>\\work\\audit\\source\\Engine\\Weapon.uc",
+      "line": 1213,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Weapon",
+      "file": "<work>\\work\\audit\\source\\Engine\\Weapon.uc",
+      "line": 1314,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Weapon",
+      "file": "<work>\\work\\audit\\source\\Engine\\Weapon.uc",
+      "line": 1729,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "FadeViewTrigger",
+      "file": "<work>\\work\\audit\\source\\GamePlay\\FadeViewTrigger.uc",
+      "line": 64,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ExtendedConsole",
+      "file": "<work>\\work\\audit\\source\\GUI\\ExtendedConsole.uc",
+      "line": 178,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "AttractPoint",
+      "file": "<work>\\work\\audit\\source\\KWGame\\AttractPoint.uc",
+      "line": 117,
+      "state": "StateActive",
+      "declared_in_other_classes": [
+        "CompanionCombatManager",
+        "Phantom"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "BaseCam",
+      "file": "<work>\\work\\audit\\source\\KWGame\\BaseCam.uc",
+      "line": 460,
+      "state": "StateBossCam",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "BaseCamTarget",
+      "file": "<work>\\work\\audit\\source\\KWGame\\BaseCamTarget.uc",
+      "line": 220,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "CreatureGenerator",
+      "file": "<work>\\work\\audit\\source\\KWGame\\CreatureGenerator.uc",
+      "line": 371,
+      "state": "TriggerOpenTimed",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "DebrisGenerator",
+      "file": "<work>\\work\\audit\\source\\KWGame\\DebrisGenerator.uc",
+      "line": 203,
+      "state": "TriggerOpenTimed",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "Dispatcher",
+      "file": "<work>\\work\\audit\\source\\KWGame\\Dispatcher.uc",
+      "line": 41,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ElevatorMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\ElevatorMover.uc",
+      "line": 32,
+      "state": "ElevatorTriggerGradual",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ElevatorMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\ElevatorMover.uc",
+      "line": 39,
+      "state": "ElevatorTriggerGradual",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ElevatorMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\ElevatorMover.uc",
+      "line": 160,
+      "state": "ElevatorTriggerGradual",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "GridMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\GridMover.uc",
+      "line": 24,
+      "state": "BumpMove",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "GridMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\GridMover.uc",
+      "line": 135,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWAIController",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWAIController.uc",
+      "line": 694,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWAIController",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWAIController.uc",
+      "line": 2078,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWAIController",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWAIController.uc",
+      "line": 2366,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWAIController",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWAIController.uc",
+      "line": 3254,
+      "state": "stateCheerInCorral",
+      "declared_in_other_classes": [
+        "SHCompanionController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWDecoration",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWDecoration.uc",
+      "line": 73,
+      "state": "StateAnimating",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWDecoration",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWDecoration.uc",
+      "line": 80,
+      "state": "StateAnimating",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWDecoration",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWDecoration.uc",
+      "line": 98,
+      "state": "StateAnimating",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWDecoration",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWDecoration.uc",
+      "line": 111,
+      "state": "StateAnimating",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWDecoration",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWDecoration.uc",
+      "line": 210,
+      "state": "StateNotAnimating",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWDecoration",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWDecoration.uc",
+      "line": 220,
+      "state": "StateNotAnimating",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWDecoration",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWDecoration.uc",
+      "line": 289,
+      "state": "StateNotAnimating",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 5789,
+      "state": "StateInactive",
+      "declared_in_other_classes": [
+        "CompanionCombatManager",
+        "FlyToDelegate",
+        "Phantom"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 5863,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 5964,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 6075,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 6147,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 6549,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 6569,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 6636,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 6775,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 6791,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 7056,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawn",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawn.uc",
+      "line": 7140,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPawnNative",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPawnNative.uc",
+      "line": 238,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWPickup",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWPickup.uc",
+      "line": 413,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "KWScriptController",
+      "file": "<work>\\work\\audit\\source\\KWGame\\KWScriptController.uc",
+      "line": 479,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "LoopMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\LoopMover.uc",
+      "line": 42,
+      "state": "LoopMove",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "LoopMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\LoopMover.uc",
+      "line": 57,
+      "state": "LoopMove",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "LoopMover",
+      "file": "<work>\\work\\audit\\source\\KWGame\\LoopMover.uc",
+      "line": 106,
+      "state": "LoopMove",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "PopupTrigger",
+      "file": "<work>\\work\\audit\\source\\KWGame\\PopupTrigger.uc",
+      "line": 45,
+      "state": "StateIdle",
+      "declared_in_other_classes": [
+        "BaseCam",
+        "KWAIController",
+        "SelectCursor",
+        "BossFGM",
+        "BossPib",
+        "GiantPumpkinController",
+        "Hazard",
+        "PlatformJunk",
+        "SHCharacter",
+        "ShHeroPawn",
+        "Shrek",
+        "SwingObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "TelePit",
+      "file": "<work>\\work\\audit\\source\\KWGame\\TelePit.uc",
+      "line": 96,
+      "state": "NormalTrigger",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "TelePit",
+      "file": "<work>\\work\\audit\\source\\KWGame\\TelePit.uc",
+      "line": 133,
+      "state": "NormalTrigger",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "CatapultAmmo",
+      "file": "<work>\\work\\audit\\source\\SHGame\\CatapultAmmo.uc",
+      "line": 73,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "CSPreCombatController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\CSPreCombatController.uc",
+      "line": 40,
+      "state": "waitForTrigger",
+      "declared_in_other_classes": [
+        "AppleTreeController",
+        "BanditBossPreCombatController",
+        "CitizenController",
+        "EnemySpawnDirector",
+        "ExplodingObjectController",
+        "FatKnightPreCombatController",
+        "GenericGeyser",
+        "PeasantMobPreCombatController",
+        "PreCombatController",
+        "SearchLightController",
+        "SnapdragonController",
+        "VentController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "CSPreCombatController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\CSPreCombatController.uc",
+      "line": 88,
+      "state": "waitForTrigger",
+      "declared_in_other_classes": [
+        "AppleTreeController",
+        "BanditBossPreCombatController",
+        "CitizenController",
+        "EnemySpawnDirector",
+        "ExplodingObjectController",
+        "FatKnightPreCombatController",
+        "GenericGeyser",
+        "PeasantMobPreCombatController",
+        "PreCombatController",
+        "SearchLightController",
+        "SnapdragonController",
+        "VentController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "HudItemHealthBar",
+      "file": "<work>\\work\\audit\\source\\SHGame\\HudItemHealthBar.uc",
+      "line": 201,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "PigBelow",
+      "file": "<work>\\work\\audit\\source\\SHGame\\PigBelow.uc",
+      "line": 101,
+      "state": "State",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ShEnemyController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\ShEnemyController.uc",
+      "line": 60,
+      "state": "stateFaint",
+      "declared_in_other_classes": [
+        "BanditBossCombatController",
+        "BanditCombatController",
+        "BanditController",
+        "BanditSpecialCombatController",
+        "CastleHallKnightController",
+        "CombatController",
+        "CSPreCombatController",
+        "ElfCombatController",
+        "ElfPreCombatController",
+        "ElfShowerController",
+        "FatKnightCombatController",
+        "HalberdKnightCombatController",
+        "KnightCombatController",
+        "MilkKnightController",
+        "MongoKnightController",
+        "PeasantCombatController",
+        "PreCombatController",
+        "WheelStealerController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ShEnemyController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\ShEnemyController.uc",
+      "line": 160,
+      "state": "stateSpecialAttack",
+      "declared_in_other_classes": [
+        "BanditCombatController",
+        "BanditController",
+        "BanditSpecialCombatController",
+        "CombatController",
+        "ElfPreCombatController",
+        "HalberdKnightCombatController",
+        "KnightCombatController",
+        "ShHeroPawn"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ShEnemyController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\ShEnemyController.uc",
+      "line": 168,
+      "state": "stateFaint",
+      "declared_in_other_classes": [
+        "BanditBossCombatController",
+        "BanditCombatController",
+        "BanditController",
+        "BanditSpecialCombatController",
+        "CastleHallKnightController",
+        "CombatController",
+        "CSPreCombatController",
+        "ElfCombatController",
+        "ElfPreCombatController",
+        "ElfShowerController",
+        "FatKnightCombatController",
+        "HalberdKnightCombatController",
+        "KnightCombatController",
+        "MilkKnightController",
+        "MongoKnightController",
+        "PeasantCombatController",
+        "PreCombatController",
+        "WheelStealerController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ShEnemyController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\ShEnemyController.uc",
+      "line": 175,
+      "state": "stateWalkingKick",
+      "declared_in_other_classes": [
+        "MilkKnightController",
+        "MongoKnightController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ShEnemyController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\ShEnemyController.uc",
+      "line": 186,
+      "state": "stateAirAttack",
+      "declared_in_other_classes": [
+        "BanditCombatController",
+        "BanditSpecialCombatController",
+        "CombatController",
+        "ElfPreCombatController",
+        "HalberdKnightCombatController",
+        "KnightCombatController",
+        "PeasantCombatController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ShEnemyController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\ShEnemyController.uc",
+      "line": 199,
+      "state": "stateTakeDamage",
+      "declared_in_other_classes": [
+        "AppleTreeRottenController",
+        "BanditSpecialCombatController",
+        "CherryTreeController",
+        "CombatController",
+        "CSPreCombatController",
+        "ElfCombatController",
+        "ElfPreCombatController",
+        "EnemyBossCombatController",
+        "ExplodeMushroomNewController",
+        "GiantPumpkinController",
+        "GrateController",
+        "GrateSewerController",
+        "HalberdKnightCombatController",
+        "PreCombatController",
+        "ShProps",
+        "SnapdragonController",
+        "WheelStealerController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "ShHeroPawn",
+      "file": "<work>\\work\\audit\\source\\SHGame\\ShHeroPawn.uc",
+      "line": 1803,
+      "state": "stateQuickThrowStart",
+      "declared_in_other_classes": [
+        "ShrekHuman"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SHScriptedController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\SHScriptedController.uc",
+      "line": 37,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SlotMachine",
+      "file": "<work>\\work\\audit\\source\\SHGame\\SlotMachine.uc",
+      "line": 233,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SlotMachine",
+      "file": "<work>\\work\\audit\\source\\SHGame\\SlotMachine.uc",
+      "line": 1043,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SlotMachine",
+      "file": "<work>\\work\\audit\\source\\SHGame\\SlotMachine.uc",
+      "line": 1092,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SnapdragonController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\SnapdragonController.uc",
+      "line": 50,
+      "state": "stateBadState",
+      "declared_in_other_classes": [
+        "GenericGeyser"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SpawnedGenericGeyser",
+      "file": "<work>\\work\\audit\\source\\SHGame\\SpawnedGenericGeyser.uc",
+      "line": 55,
+      "state": "waitForTrigger",
+      "declared_in_other_classes": [
+        "AppleTreeController",
+        "BanditBossPreCombatController",
+        "CitizenController",
+        "EnemySpawnDirector",
+        "ExplodingObjectController",
+        "FatKnightPreCombatController",
+        "GenericGeyser",
+        "PeasantMobPreCombatController",
+        "PreCombatController",
+        "SearchLightController",
+        "SnapdragonController",
+        "VentController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "SquishedFrog",
+      "file": "<work>\\work\\audit\\source\\SHGame\\SquishedFrog.uc",
+      "line": 13,
+      "state": "FadeAway",
+      "declared_in_other_classes": [
+        "HazMatSplat",
+        "HoleInGroundItems",
+        "Hubcap",
+        "LaserBeam",
+        "PotionObject"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "VentController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\VentController.uc",
+      "line": 65,
+      "state": "stateBadState",
+      "declared_in_other_classes": [
+        "GenericGeyser"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "WheelStealer",
+      "file": "<work>\\work\\audit\\source\\SHGame\\WheelStealer.uc",
+      "line": 73,
+      "state": "GetWheel",
+      "declared_in_other_classes": [
+        "WheelStealerController"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "WheelStealerController",
+      "file": "<work>\\work\\audit\\source\\SHGame\\WheelStealerController.uc",
+      "line": 170,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "WheelStealerSpawnPoint",
+      "file": "<work>\\work\\audit\\source\\SHGame\\WheelStealerSpawnPoint.uc",
+      "line": 70,
+      "state": "waitToSpawn",
+      "declared_in_other_classes": [
+        "EnemySpawnPoint",
+        "SearchLightSpawnPoint"
+      ],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    },
+    {
+      "class": "WindowConsole",
+      "file": "<work>\\work\\audit\\source\\UWindow\\WindowConsole.uc",
+      "line": 198,
+      "state": "None",
+      "declared_in_other_classes": [],
+      "status": "candidate only; inheritance and dynamic state ownership need review"
+    }
+  ],
+  "explicit_stub_candidates": [
+    {
+      "file": "<work>\\work\\audit\\source\\Engine\\AutoDoor.uc",
+      "line": 1,
+      "code": "class AutoDoor extends Door"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\Engine\\Mover.uc",
+      "line": 86,
+      "code": "var(AI) bool bAutoDoor;"
+    },
+    {
+      "file": "<work>\\work\\audit\\source\\KWGame\\HeadLookManager.uc",
+      "line": 61,
+      "code": "__NFUN_231__(\"ScanEnvironment( ) not implemented!\");"
+    }
+  ],
+  "interpretation": "Automated full-corpus candidate scan. Each candidate requires bytecode and reachability review; no absence-of-bugs claim."
+}

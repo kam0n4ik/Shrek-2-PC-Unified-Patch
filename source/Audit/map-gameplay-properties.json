@@ -1,0 +1,717 @@
+[
+  {
+    "map": "10_Castle_Siege.unr",
+    "actor": "EnemySpawnDirector2",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 50,
+      "NumberOfEnemiesAtOnce": 3,
+      "GroupName": "knights02",
+      "bLightChanged": true,
+      "bHidden": true,
+      "Tag": "knights02_director"
+    }
+  },
+  {
+    "map": "10_Castle_Siege.unr",
+    "actor": "EnemySpawnDirector10",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 50,
+      "NumberOfEnemiesAtOnce": 3,
+      "GroupName": "knights01",
+      "bLightChanged": true,
+      "bHidden": true,
+      "Tag": "knights01_director"
+    }
+  },
+  {
+    "map": "10_Castle_Siege.unr",
+    "actor": "EnemySpawnDirector1",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 50,
+      "NumberOfEnemiesAtOnce": 3,
+      "GroupName": "milkknights01",
+      "bLightChanged": true,
+      "bHidden": true,
+      "Tag": "milkknights01_director"
+    }
+  },
+  {
+    "map": "10_Castle_Siege.unr",
+    "actor": "EnemySpawnDirector9",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 50,
+      "NumberOfEnemiesAtOnce": 3,
+      "GroupName": "milkknights03",
+      "bLightChanged": true,
+      "bHidden": true,
+      "Tag": "milkknights03_director"
+    }
+  },
+  {
+    "map": "10_Castle_Siege.unr",
+    "actor": "EnemySpawnDirector3",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 50,
+      "NumberOfEnemiesAtOnce": 3,
+      "GroupName": "milkknights04",
+      "bLightChanged": true,
+      "bHidden": true,
+      "Tag": "milkknights04_director"
+    }
+  },
+  {
+    "map": "10_Castle_Siege.unr",
+    "actor": "EnemySpawnDirector0",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 50,
+      "NumberOfEnemiesAtOnce": 3,
+      "GroupName": "milkknights02",
+      "bLightChanged": true,
+      "bHidden": true,
+      "Tag": "milkknights02_director"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector7",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "knights06",
+      "bHidden": true,
+      "Tag": "knights06_director",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector14",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 5,
+      "NumberOfEnemiesAtOnce": 5,
+      "GroupName": "FGMKnightGroup03",
+      "bHidden": true,
+      "Tag": "FGMEvent_04",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector11",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 5,
+      "NumberOfEnemiesAtOnce": 5,
+      "GroupName": "FGMKnightGroup02",
+      "bHidden": true,
+      "Tag": "FGMEvent_03",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector6",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 5,
+      "NumberOfEnemiesAtOnce": 5,
+      "GroupName": "knights09",
+      "bHidden": true,
+      "Tag": "knights09_director"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector0",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 5,
+      "NumberOfEnemiesAtOnce": 5,
+      "GroupName": "knights10",
+      "bHidden": true,
+      "Tag": "knights10_director"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector2",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "knights02",
+      "bHidden": true,
+      "Tag": "knights02_director",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector10",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 5,
+      "NumberOfEnemiesAtOnce": 5,
+      "GroupName": "FGMKnightGroup01",
+      "bHidden": true,
+      "Tag": "FGMEvent_02",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector1",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "knights01",
+      "bHidden": true,
+      "Tag": "knights01_director",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector9",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 5,
+      "NumberOfEnemiesAtOnce": 5,
+      "GroupName": "KnightGuard01",
+      "bHidden": true,
+      "Tag": "FGMEvent_01",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector3",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "knights03",
+      "bHidden": true,
+      "Tag": "knights03_director",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector8",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 5,
+      "NumberOfEnemiesAtOnce": 5,
+      "GroupName": "knights07",
+      "bHidden": true,
+      "Tag": "knights07_director_disabled"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector4",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "knights04",
+      "bHidden": true,
+      "Tag": "knights04_director",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "11_FGM_Battle.unr",
+    "actor": "EnemySpawnDirector5",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "knights05",
+      "bHidden": true,
+      "Tag": "knights05_director",
+      "Event": "LotsOfKnights"
+    }
+  },
+  {
+    "map": "2_Carriage_Hijack.unr",
+    "actor": "EnemySpawnDirector1",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits02",
+      "bHidden": true,
+      "Tag": "bandits2_director"
+    }
+  },
+  {
+    "map": "2_Carriage_Hijack.unr",
+    "actor": "WheelStealerSpawnPoint1",
+    "class": "WheelStealerSpawnPoint",
+    "properties": {
+      "GroupName": "StealerTest",
+      "bHidden": true,
+      "Tag": "WheelStealerSpawnPoint",
+      "Event": "bandits_phase02",
+      "bDirectional": true
+    }
+  },
+  {
+    "map": "2_Carriage_Hijack.unr",
+    "actor": "EnemySpawnDirector0",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits01",
+      "bHidden": true,
+      "Tag": "bandits_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector2",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits01",
+      "bHidden": true,
+      "Tag": "bandits01_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector10",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits07",
+      "bHidden": true,
+      "Tag": "bandits06_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector1",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits02",
+      "bHidden": true,
+      "Tag": "bandits01_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector9",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "bandits09",
+      "bHidden": true,
+      "Tag": "bandits06_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector3",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits05",
+      "bHidden": true,
+      "Tag": "bandits05_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector0",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "Gate01bandits",
+      "bHidden": true,
+      "Tag": "Gate01BanditsDirector"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector15",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits20",
+      "bHidden": true,
+      "Tag": "bandits10_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector5",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits10",
+      "bHidden": true,
+      "Tag": "bandits06_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector8",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits08",
+      "bHidden": true,
+      "Tag": "bandits06_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector13",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 4,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits15",
+      "bHidden": true,
+      "Tag": "bandits09_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector6",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "bandits06",
+      "bHidden": true,
+      "Tag": "bandits05_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector11",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 6,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "bandits22",
+      "bHidden": true,
+      "Tag": "bandits12_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector14",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 4,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "bandits16",
+      "bHidden": true,
+      "Tag": "bandits09_director"
+    }
+  },
+  {
+    "map": "6_Hamlet.unr",
+    "actor": "EnemySpawnDirector7",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "Gate01banditsB",
+      "bHidden": true,
+      "Tag": "Gate01BanditsDirectorB"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "PigBelow1",
+    "class": "PigBelow",
+    "properties": {
+      "Tag": "PigBelow1",
+      "Event": "StrawCounter"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "PigBelow6",
+    "class": "PigBelow",
+    "properties": {
+      "Tag": "PigBelow5",
+      "Event": "BrickCounter"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector18",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP22",
+      "bHidden": true,
+      "Tag": "BanditPaths20"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector17",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP17",
+      "bHidden": true,
+      "Tag": "BanditPaths16"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector19",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP20",
+      "bHidden": true,
+      "Tag": "BanditPaths20"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector12",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 8,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP13",
+      "bHidden": true,
+      "Tag": "BanditPaths7"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector16",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 1,
+      "GroupName": "BP9",
+      "bHidden": true,
+      "Tag": "BanditPaths6"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "PigBelow3",
+    "class": "PigBelow",
+    "properties": {
+      "Tag": "PigBelow2",
+      "Event": "WoodCounter"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector0",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "bandits4",
+      "bHidden": true,
+      "Tag": "bandits4_director"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector7",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP21",
+      "bHidden": true,
+      "Tag": "BanditPaths20"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector13",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP14",
+      "bHidden": true,
+      "Tag": "BanditPaths15"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector15",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 1,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP8",
+      "bHidden": true,
+      "Tag": "BanditPaths6"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector5",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP4",
+      "bHidden": true,
+      "Tag": "BanditPaths3"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector4",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP1",
+      "bHidden": true,
+      "Tag": "BanditPaths1"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector8",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP2",
+      "bHidden": true,
+      "Tag": "BanditPaths2"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector3",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "bandits3",
+      "bHidden": true,
+      "Tag": "bandits3_director"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector9",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP3",
+      "bHidden": true,
+      "Tag": "BanditPaths2"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector1",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "bandits1",
+      "bHidden": true,
+      "Tag": "bandits1_director"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector10",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP6",
+      "bHidden": true,
+      "Tag": "BanditPaths4"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector2",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "bandits2",
+      "bHidden": true,
+      "Tag": "bandits2_director"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector6",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP5",
+      "bHidden": true,
+      "Tag": "BanditPaths4"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector11",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP10",
+      "bHidden": true,
+      "Tag": "BanditPaths6"
+    }
+  },
+  {
+    "map": "6_Hamlet_End.unr",
+    "actor": "EnemySpawnDirector14",
+    "class": "EnemySpawnDirector",
+    "properties": {
+      "NumberOfEnemiesTotal": 2,
+      "NumberOfEnemiesAtOnce": 2,
+      "GroupName": "BP16",
+      "bHidden": true,
+      "Tag": "BanditPaths16"
+    }
+  }
+]

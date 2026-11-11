@@ -1,0 +1,156 @@
+[
+  {
+    "package": "AmbientCreatures.u",
+    "source": "E:\\Shrek 2\\System\\AmbientCreatures.u",
+    "sha256": "e336a7a7799aa939fb55ffa839fa5948eff039d9358d1a569b7e2eb7d314614e",
+    "classes_in_package": 34,
+    "decompiled_classes": 34,
+    "functions": 126,
+    "source_lines": 2738,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "Core.u",
+    "source": "E:\\Shrek 2\\System\\Core.u",
+    "sha256": "8d02eda960db17a6f8806e3a88359eced6d450207cfc53c9cf7575a8e861eaf6",
+    "classes_in_package": 7,
+    "decompiled_classes": 7,
+    "functions": 200,
+    "source_lines": 1194,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "Editor.u",
+    "source": "E:\\Shrek 2\\System\\Editor.u",
+    "sha256": "493350e3e82b333088259edb70dae59288d370311f5518fb1f90176005edfe36",
+    "classes_in_package": 16,
+    "decompiled_classes": 16,
+    "functions": 37,
+    "source_lines": 1574,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "Engine.u",
+    "source": "E:\\Shrek 2\\System\\Engine.u",
+    "sha256": "7614103b46331256e28af936d00d7d8fc1355a82323d9c49bdff05f9994244c4",
+    "classes_in_package": 233,
+    "decompiled_classes": 233,
+    "functions": 1946,
+    "source_lines": 37826,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "Fire.u",
+    "source": "E:\\Shrek 2\\System\\Fire.u",
+    "sha256": "18afd7a7283f709107c7de63acefa470644dacbbba6367876146a8b7ed42f525",
+    "classes_in_package": 7,
+    "decompiled_classes": 7,
+    "functions": 0,
+    "source_lines": 226,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "GamePlay.u",
+    "source": "E:\\Shrek 2\\System\\GamePlay.u",
+    "sha256": "95239981cd024ed6f814af4da2e593f7162a22c1559df4253f7a2a86ecde54b6",
+    "classes_in_package": 214,
+    "decompiled_classes": 214,
+    "functions": 210,
+    "source_lines": 6236,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "GUI.u",
+    "source": "E:\\Shrek 2\\System\\GUI.u",
+    "sha256": "d0e341147cab646589278327de42d7d17d6d6f3d2faea147ed889a0f9e3b3c4e",
+    "classes_in_package": 95,
+    "decompiled_classes": 95,
+    "functions": 497,
+    "source_lines": 10831,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "KWGame.u",
+    "source": "E:\\Shrek 2\\System\\KWGame.u",
+    "sha256": "76a76aabdd6eb192ba5b3b6b9a0a34436774bc2e79211873f7763f7a6094f12e",
+    "classes_in_package": 286,
+    "decompiled_classes": 286,
+    "functions": 1898,
+    "source_lines": 42626,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "SHGame.u",
+    "source": "<work>\\work\\original\\System\\SHGame.u",
+    "sha256": "4e23df53fec3ecf39fd0c96f3c4649398cd8da8bb9e5606e97d42a99632ae0e9",
+    "classes_in_package": 994,
+    "decompiled_classes": 994,
+    "functions": 2831,
+    "source_lines": 78913,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "UDebugMenu.u",
+    "source": "E:\\Shrek 2\\System\\UDebugMenu.u",
+    "sha256": "b833f7fa6a2e72eeacfb1a2291091920affe231780dca70c6df23ce347a46224",
+    "classes_in_package": 38,
+    "decompiled_classes": 38,
+    "functions": 157,
+    "source_lines": 6682,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  },
+  {
+    "package": "UWindow.u",
+    "source": "E:\\Shrek 2\\System\\UWindow.u",
+    "sha256": "6cbb8a86335845fb75ea0b1269eac9452429c05febf61b30057d1362ecba9f3a",
+    "classes_in_package": 78,
+    "decompiled_classes": 78,
+    "functions": 736,
+    "source_lines": 15630,
+    "decompiler_exit_code": 0,
+    "limitations": [
+      "Decompiled native declarations do not include native implementations.",
+      "Default dynamic-array property warnings can be decompiler incompatibilities."
+    ]
+  }
+]
