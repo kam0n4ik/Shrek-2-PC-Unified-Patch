@@ -106,6 +106,7 @@ class Installer {
         string msg="\n\nМеню разработчиков: F9 — включить режим разработчика, F10 — открыть Dev Menu.";
         return notes.Count>0?msg+"\n"+String.Join("\n",notes.ToArray()):msg;
     }
+    static string Saved(string backup,string name) {return Path.Combine(backup,name.StartsWith("..\\")?name.Substring(3):name);}
     static string Run(string path, bool restore, bool check, bool devmenu, string profile) {
         string system=Path.GetFullPath(path).TrimEnd(Path.DirectorySeparatorChar);
         if(!Directory.Exists(system))throw new Exception("Не найдена папка System: "+system);
@@ -114,7 +115,7 @@ class Installer {
         foreach(var p in manifest.Files) {
             string target=Path.Combine(system,p.Name);
             if(restore) {
-                string saved=Path.Combine(backup,p.Name);
+                string saved=Saved(backup,p.Name);
                 if(!File.Exists(saved)) {
                     if(File.Exists(target)&&Hash(File.ReadAllBytes(target))==p.OriginalHash)continue;
                     throw new Exception("Не найдена резервная копия: "+p.Name);
@@ -128,7 +129,7 @@ class Installer {
                 if(!File.Exists(target))throw new Exception("Не найден файл игры: "+p.Name);
                 byte[] input=File.ReadAllBytes(target);
                 if((p.PriorPatchedHashes??new string[0]).Contains(Hash(input))) {
-                    string saved=Path.Combine(backup,p.Name);
+                    string saved=Saved(backup,p.Name);
                     if(!File.Exists(saved)||Hash(File.ReadAllBytes(saved))!=p.OriginalHash)
                         throw new Exception("Для обновления прежнего патча нужна исходная резервная копия: "+p.Name);
                     input=File.ReadAllBytes(saved);
@@ -140,7 +141,7 @@ class Installer {
         CheckStopped(system);
         Directory.CreateDirectory(backup);
         foreach(var p in manifest.Files) {
-            string target=Path.Combine(system,p.Name),saved=Path.Combine(backup,p.Name);
+            string target=Path.Combine(system,p.Name),saved=Saved(backup,p.Name);
             if(!restore) {
                 if(!File.Exists(saved)) {
                     byte[] bytes=File.ReadAllBytes(target);
@@ -164,7 +165,7 @@ class Installer {
         }
         File.WriteAllText(Path.Combine(backup,"version.txt"),manifest.Version+Environment.NewLine,Encoding.UTF8);
         string dev=DevMenu(backup,profile,!restore&&devmenu);
-        return (restore?"Оригинальные файлы восстановлены.":"Единый патч установлен.\n\nHUD, меню, субтитры и видеоролики сохраняют пропорции на широком экране. Доступны разрешения до 2560×1440, оконный режим, VSync и Alt+F4. Заставки с логотипами пропускаются, книга главного меню открывается быстрее. Предыдущие исправления сохранены.\nОригиналы находятся в Shrek2VideoPatchBackup.")+dev;
+        return (restore?"Оригинальные файлы восстановлены.":"Единый патч установлен.\n\nHUD, меню, субтитры и видеоролики сохраняют пропорции на широком экране. Доступны разрешения до 2560×1440, оконный режим, VSync и Alt+F4. Заставки с логотипами пропускаются, книга главного меню открывается быстрее. Исправлена лестница в тюрьме (уровень с Котом), на которую нельзя было забраться при высоком FPS. Предыдущие исправления сохранены.\nОригиналы находятся в Shrek2VideoPatchBackup.")+dev;
     }
     [STAThread]
     static int Main(string[] args) {
@@ -184,7 +185,7 @@ class Installer {
             catch(Exception e){if(report!=null)File.WriteAllText(report,e.ToString(),Encoding.UTF8);return 1;}
         }
         Application.EnableVisualStyles();
-        var form=new Form {Text="Shrek 2 — единый патч 1.6",ClientSize=new Size(620,280),FormBorderStyle=FormBorderStyle.FixedDialog,MaximizeBox=false,StartPosition=FormStartPosition.CenterScreen};
+        var form=new Form {Text="Shrek 2 — единый патч 1.7",ClientSize=new Size(620,280),FormBorderStyle=FormBorderStyle.FixedDialog,MaximizeBox=false,StartPosition=FormStartPosition.CenterScreen};
         var info=new Label{Text="HUD и видео 16:9 · До 2560×1440 · Окно · VSync · Alt+F4 · Без заставок\n\nПапка System установленной игры:",AutoSize=true,Location=new Point(20,20)};
         var input=new TextBox{Text=system,Location=new Point(20,85),Size=new Size(470,25)};
         var browse=new Button{Text="Обзор…",Location=new Point(500,83),Size=new Size(100,28)};

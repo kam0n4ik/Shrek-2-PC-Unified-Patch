@@ -24,6 +24,8 @@ An unofficial patch for the 2004 PC game **Shrek 2** (KnowWonder / Activision, U
 **Fixes**
 - **Crash when switching VSync to "Off"** (GPF in `GUIComboBox.TextChanged`). A `bVisible` assignment in `SHGame.u` was encoded with the wrong bytecode form for a bool assignment, so it read a garbage pointer.
 - **Alt+F4 did nothing in fullscreen.** The fullscreen window has no system menu, so Windows discarded `SC_CLOSE`. Alt+F4 now sends `WM_CLOSE`, and the game exits normally.
+- **Prison ladder softlock (1.7).** On `7_Prison_Donkey` Puss couldn't get off the first ladder at high frame rates. The top ladder point `AutoLadder513` sat 48 units above what the climb can reach, so you only got there by overshooting on a long frame at low FPS. It now sits at Z=258.5, the value every leftover copy of that point in the map has (the same fix Master_64 found independently). A save made on that level keeps the old ladder until you re-enter the level.
+- **Shrink potion log spam (1.7).** `ShHeroPawn.UseShrinkPotion` called a camera function with no check that a player controls the pawn. AI companions shrinking or growing logged "Accessed None" every frame (663 lines in one Castle Siege session). It now calls the developers' own guarded `AdjustShrinkCameraSetting`.
 - Stripes, wrong colours and partial output in Bink movies, plus a write past the end of the decoder's temporary buffer.
 - Settings tabs going off the left edge of the screen at high resolutions.
 - Only the first of four landing animations was being checked.
@@ -38,13 +40,13 @@ An unofficial patch for the 2004 PC game **Shrek 2** (KnowWonder / Activision, U
 ## Installation
 
 1. Close the game.
-2. Download `Shrek2VideoPatch-1.6.exe` from [Releases](https://github.com/kam0n4ik/Shrek-2-PC-Unified-Patch/releases/latest) and run it.
+2. Download `Shrek2VideoPatch-1.7.exe` from [Releases](https://github.com/kam0n4ik/Shrek-2-PC-Unified-Patch/releases/latest) and run it.
 3. Point it at the game's `System` folder and click **Установить патч** (*Install patch*). The installer window is in Russian. If you want F9/F10, tick **Разблокировать меню разработчиков** (*Unlock developer menu*) first.
 4. Start the game, open *Options → Video*, choose a resolution, apply and confirm.
 
 **Восстановить оригинал** (*Restore original*) puts back every file from `System\Shrek2VideoPatchBackup` and removes the F9/F10 bindings.
 
-The installer checks the SHA-256 of every file before and after patching. A file that doesn't match a known version is reported, and nothing is changed. Earlier versions 1.0–1.5 of the patch are upgraded in place, using the original backup.
+The installer checks the SHA-256 of every file before and after patching. A file that doesn't match a known version is reported, and nothing is changed. Earlier versions 1.0–1.6 of the patch are upgraded in place, using the original backup.
 
 > The installer is built and tested on the **Russian retail PC release**. Other language builds have different `.int` files and will most likely be rejected without changes. No game files are included: the installer only contains binary diffs and applies them to your own copy of the game.
 
