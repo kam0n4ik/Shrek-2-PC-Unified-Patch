@@ -15,6 +15,7 @@ class FilePatch {
     public string PatchedHash {get;set;}
     public string[] PriorPatchedHashes {get;set;}
     public Hunk[] Hunks {get;set;}
+    public bool Added {get;set;}
 }
 class Hunk {public int Offset {get;set;} public string Before {get;set;} public string After {get;set;}}
 class Manifest {public string Version {get;set;} public FilePatch[] Files {get;set;}}
@@ -112,8 +113,19 @@ class Installer {
         if(!Directory.Exists(system))throw new Exception("Не найдена папка System: "+system);
         string backup=Path.Combine(system,"Shrek2VideoPatchBackup");
         var files=new Dictionary<string,byte[]>();
+        var removals=new List<string>();
         foreach(var p in manifest.Files) {
             string target=Path.Combine(system,p.Name);
+            if(p.Added) {
+                string current=File.Exists(target)?Hash(File.ReadAllBytes(target)):null;
+                bool ours=current==p.PatchedHash||(p.PriorPatchedHashes??new string[0]).Contains(current);
+                if(current!=null&&!ours)throw new Exception("Файл "+p.Name+" уже существует и не относится к патчу. Файлы игры не изменены.");
+                if(restore){if(current!=null)removals.Add(target);continue;}
+                byte[] content=Convert.FromBase64String(p.Hunks[0].After);
+                if(Hash(content)!=p.PatchedHash)throw new Exception("Не совпала контрольная сумма: "+p.Name);
+                files.Add(target,content);
+                continue;
+            }
             if(restore) {
                 string saved=Saved(backup,p.Name);
                 if(!File.Exists(saved)) {
@@ -141,6 +153,7 @@ class Installer {
         CheckStopped(system);
         Directory.CreateDirectory(backup);
         foreach(var p in manifest.Files) {
+            if(p.Added)continue;
             string target=Path.Combine(system,p.Name),saved=Saved(backup,p.Name);
             if(!restore) {
                 if(!File.Exists(saved)) {
@@ -153,19 +166,27 @@ class Installer {
             }
         }
         var prior=new Dictionary<string,byte[]>();
+        var created=new List<string>();
         try {
             foreach(var f in files) {
+                if(!File.Exists(f.Key)) {
+                    created.Add(f.Key);
+                    File.WriteAllBytes(f.Key,f.Value);
+                    continue;
+                }
                 if(File.ReadAllBytes(f.Key).SequenceEqual(f.Value))continue;
                 prior.Add(f.Key,File.ReadAllBytes(f.Key));
                 File.WriteAllBytes(f.Key,f.Value);
             }
         } catch {
             foreach(var f in prior) {try{File.WriteAllBytes(f.Key,f.Value);}catch{}}
+            foreach(var c in created) {try{File.Delete(c);}catch{}}
             throw;
         }
+        foreach(var r in removals)File.Delete(r);
         File.WriteAllText(Path.Combine(backup,"version.txt"),manifest.Version+Environment.NewLine,Encoding.UTF8);
         string dev=DevMenu(backup,profile,!restore&&devmenu);
-        return (restore?"Оригинальные файлы восстановлены.":"Единый патч установлен.\n\nHUD, меню, субтитры и видеоролики сохраняют пропорции на широком экране. Доступны разрешения до 2560×1440, оконный режим, VSync и Alt+F4. Заставки с логотипами пропускаются, книга главного меню открывается быстрее. Исправлена лестница в тюрьме (уровень с Котом), на которую нельзя было забраться при высоком FPS. Предыдущие исправления сохранены.\nОригиналы находятся в Shrek2VideoPatchBackup.")+dev;
+        return (restore?"Оригинальные файлы восстановлены.":"Единый патч установлен.\n\nHUD, меню, субтитры и видеоролики сохраняют пропорции на широком экране. Доступны разрешения до 2560×1440, оконный режим, VSync и Alt+F4. Заставки с логотипами пропускаются, книга главного меню открывается быстрее. Исправлена лестница в тюрьме (уровень с Котом), на которую нельзя было забраться при высоком FPS. В «Настройки» добавлена вкладка «Управление»: все клавиши игры можно переназначить. Предыдущие исправления сохранены.\nОригиналы находятся в Shrek2VideoPatchBackup.")+dev;
     }
     [STAThread]
     static int Main(string[] args) {
@@ -185,8 +206,8 @@ class Installer {
             catch(Exception e){if(report!=null)File.WriteAllText(report,e.ToString(),Encoding.UTF8);return 1;}
         }
         Application.EnableVisualStyles();
-        var form=new Form {Text="Shrek 2 — единый патч 1.7",ClientSize=new Size(620,280),FormBorderStyle=FormBorderStyle.FixedDialog,MaximizeBox=false,StartPosition=FormStartPosition.CenterScreen};
-        var info=new Label{Text="HUD и видео 16:9 · До 2560×1440 · Окно · VSync · Alt+F4 · Без заставок\n\nПапка System установленной игры:",AutoSize=true,Location=new Point(20,20)};
+        var form=new Form {Text="Shrek 2 — единый патч 1.8",ClientSize=new Size(620,280),FormBorderStyle=FormBorderStyle.FixedDialog,MaximizeBox=false,StartPosition=FormStartPosition.CenterScreen};
+        var info=new Label{Text="HUD и видео 16:9 · До 2560×1440 · Окно · VSync · Alt+F4 · Без заставок · Вкладка «Управление»\n\nПапка System установленной игры:",AutoSize=true,Location=new Point(20,20)};
         var input=new TextBox{Text=system,Location=new Point(20,85),Size=new Size(470,25)};
         var browse=new Button{Text="Обзор…",Location=new Point(500,83),Size=new Size(100,28)};
         browse.Click+=(s,e)=>{using(var dialog=new FolderBrowserDialog{Description="Выберите папку System игры Shrek 2",SelectedPath=input.Text})if(dialog.ShowDialog()==DialogResult.OK)input.Text=dialog.SelectedPath;};
